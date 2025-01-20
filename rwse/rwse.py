@@ -108,9 +108,9 @@ class RWSE_Checker:
                 correct_token_str = self.check(token_str, masked_sentence=masked_sentence)
                 if token_str != correct_token_str:
                     # TODO set correction feature
-                    cas_rwse = RWSE(begin=tokens[i].begin, end=tokens[i].end)
+                    cas_rwse = RWSE(begin=tokens[i].begin, end=tokens[i].end, suggestion=correct_token_str)
                     cas.add(cas_rwse)
-                    print(cas_rwse)
+                    #print(cas_rwse)
         #return cas
 
     def check(self, token: str, masked_sentence: str) -> str:
