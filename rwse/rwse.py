@@ -1,8 +1,8 @@
 from cassis import Cas
 from cassis.typesystem import TypeNotFoundError
 from transformers import pipeline
-from typing import List
 import csv
+
 
 T_SENTENCE = 'de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence'
 T_RWSE = 'de.tudarmstadt.ukp.dkpro.core.api.anomaly.type.RWSE'
@@ -13,14 +13,7 @@ class RWSE_Checker:
     def __init__(self) -> None:
         # TODO make language aware
         self.pipe = pipeline("fill-mask", model="bert-base-cased")
-
-    def _load_confusion_sets(self, file_path):
-        confusion_sets = {}
-        with open(file_path, 'r') as file:
-            for row in csv.reader(file):
-                for key in row:
-                    confusion_sets[key] = list(row)
-        return confusion_sets
+        self.confusion_sets = None
     
     def _create_masked_sentence(self, cas, i, tokens):
         text = cas.sofa_string
@@ -43,8 +36,55 @@ class RWSE_Checker:
 
         return prefix + " [MASK] " + suffix
 
-    def set_confusion_sets(self, filepath):
-        self.confusion_sets = self._load_confusion_sets(filepath)
+    def set_confusion_sets(self, input_data) -> None:
+        '''
+
+        :param input_data: a file path string pointing to a csv file containing a list of confusion sets;
+        a python list of confusion sets or a dictionary of confusion sets where each item is a word with
+        a corresponding confusion set.
+        '''
+        def load_confusion_sets_from_file(file_path):
+            result = {}
+            with open(file_path, 'r') as file:
+                for row in csv.reader(file):
+                    for key in row:
+                        result[key] = list(row)
+            return result
+
+        def load_confusion_sets_from_list(input_list):
+            result = {}
+            for input_set in input_list:
+                for item in input_set:
+                    result[item] = list(input_set)
+                    if len(result[item]) < 2:
+                        raise AttributeError
+            return result
+
+        def load_confusion_sets_from_dict(input_dict):
+            result = dict()
+            for key, value in input_dict.items():
+                new_values = [item.strip() for item in value]
+                if len(new_values) < 2:
+                    raise AttributeError
+                result[key.strip()] = new_values
+            return result
+
+        input_map = {
+            str: load_confusion_sets_from_file,
+            list: load_confusion_sets_from_list,
+            dict: load_confusion_sets_from_dict
+        }
+
+        try:
+            input_type = type(input_data)
+            mapping = input_map.get(input_type)
+            self.confusion_sets = mapping(input_data)
+        except TypeError:
+            print(f'Error: {input_type} not supported as confusion sets input.')
+        except AttributeError:
+            print('Confusion set input is malformed. A file should contain more than one item per line '
+                'and a list or dictionary more than one item per entry.')
+
 
     # also called automatically within check, but might be useful to have exposed,
     # e.g. when wanting to show which tokens are in confusion sets without running the (costly) pipeline
@@ -97,7 +137,6 @@ class RWSE_Checker:
 
 if __name__ == "__main__":
     rwse = RWSE_Checker()
-    rwse.set_confusion_sets('../data/confusion_sets.csv')
     token = "there"
     masked_sentence = "I want to buy [MASK] cars."
     correct_token = rwse.check(token, masked_sentence)
