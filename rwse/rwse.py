@@ -137,6 +137,7 @@ class RWSE_Checker:
 
 if __name__ == "__main__":
     rwse = RWSE_Checker()
+    rwse.set_confusion_sets('../data/confusion_sets.csv')
     token = "there"
     masked_sentence = "I want to buy [MASK] cars."
     correct_token = rwse.check(token, masked_sentence)
