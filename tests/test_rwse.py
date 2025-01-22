@@ -1,4 +1,4 @@
-from rwse import rwse
+import experiments.rwse as rwse
 import cassis
 import spacy
 
