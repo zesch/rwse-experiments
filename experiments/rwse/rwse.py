@@ -12,6 +12,7 @@ class RWSE_Checker:
 
     def __init__(self) -> None:
         # TODO make language aware
+        # TODO make model configurable
         self.pipe = pipeline("fill-mask", model="bert-base-cased")
         self.confusion_sets = None
     
