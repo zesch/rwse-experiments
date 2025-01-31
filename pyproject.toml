@@ -8,7 +8,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
-transformers = "4.44.2"
+transformers = "4.48.1"
 dkpro-cassis = "0.9.1"
 torch = "2.4.1"
 spacy = "3.8.2"

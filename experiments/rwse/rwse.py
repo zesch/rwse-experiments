@@ -2,6 +2,7 @@ from cassis import Cas
 from cassis.typesystem import TypeNotFoundError
 from transformers import pipeline
 import csv
+import torch
 
 
 T_SENTENCE = 'de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence'
@@ -10,10 +11,12 @@ T_TOKEN = 'de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token'
 
 class RWSE_Checker:
 
-    def __init__(self) -> None:
+    def __init__(self, gpu) -> None:
         # TODO make language aware
         # TODO make model configurable
-        self.pipe = pipeline("fill-mask", model="bert-base-cased")
+        self.pipe = pipeline("fill-mask", model="bert-base-cased", device=gpu)
+        # self.pipe = pipeline("fill-mask", model="answerdotai/ModernBERT-base", torch_dtype=torch.bfloat16, device=gpu)
+
         self.confusion_sets = None
     
     def _create_masked_sentence(self, cas, i, tokens):
