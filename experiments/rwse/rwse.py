@@ -133,13 +133,25 @@ class RWSE_Checker:
             if result["score"] > target_prob and result["score"] > highest_prob:
                 highest_prob = result["score"]
                 correct_token = result["token_str"]
-
-        return correct_token
+        # ignore case correction
+        return correct_token if correct_token.lower() != token.lower() else token
 
 if __name__ == "__main__":
     rwse = RWSE_Checker()
-    rwse.set_confusion_sets('../data/confusion_sets.csv')
+    rwse.set_confusion_sets('test_confusion_sets.csv')
     token = "there"
     masked_sentence = "I want to buy [MASK] cars."
+    correct_token = rwse.check(token, masked_sentence)
+    print(token, correct_token)
+
+    # no case correction
+
+    masked_sentence = "Once upon a time there was an old mother pig who had [MASK] little pigs and not enough food to feed them."
+
+    token = "Three"
+    correct_token = rwse.check(token, masked_sentence)
+    print(token, correct_token)
+
+    token = "three"
     correct_token = rwse.check(token, masked_sentence)
     print(token, correct_token)
