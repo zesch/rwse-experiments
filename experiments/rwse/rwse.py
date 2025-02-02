@@ -11,7 +11,7 @@ T_TOKEN = 'de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token'
 
 class RWSE_Checker:
 
-    def __init__(self, gpu) -> None:
+    def __init__(self, gpu=-1) -> None:
         # TODO make language aware
         # TODO make model configurable
         self.pipe = pipeline("fill-mask", model="bert-base-cased", device=gpu)
@@ -93,8 +93,8 @@ class RWSE_Checker:
     # also called automatically within check, but might be useful to have exposed,
     # e.g. when wanting to show which tokens are in confusion sets without running the (costly) pipeline
     def needs_checking(self, token):
-        return token in self.confusion_sets 
-    
+        return token in self.confusion_sets
+
     def check_cas(self, cas: Cas, ts):
         try:
             RWSE = ts.get_type(T_RWSE)
@@ -109,21 +109,23 @@ class RWSE_Checker:
                 masked_sentence = self._create_masked_sentence(cas, i, tokens)
 
                 token_str = tokens[i].get_covered_text()
-                correct_token_str = self.check(token_str, masked_sentence=masked_sentence)
-                if token_str != correct_token_str:
-                    # TODO set correction feature
-                    cas_rwse = RWSE(begin=tokens[i].begin, end=tokens[i].end, suggestion=correct_token_str)
-                    cas.add(cas_rwse)
-                    #print(cas_rwse)
-        #return cas
 
-    def check(self, token: str, masked_sentence: str) -> str:
+                correct_token_str, correct_token_crt = self.check(token_str, masked_sentence=masked_sentence)
+                if token_str.lower() != correct_token_str.lower():
+                    # TODO set correction feature
+                    cas_rwse = RWSE(begin=tokens[i].begin, end=tokens[i].end, suggestion=correct_token_str,
+                                    certainty=correct_token_crt)
+                    cas.add(cas_rwse)
+                    # print(cas_rwse)
+        # return cas
+
+    def check(self, token: str, masked_sentence: str) -> (str, float):
         # if no need to check return token
         if not self.needs_checking(token):
-            return token
-        
+            return token, None
+
         # In order to be sure about a change, we should be orders of magnitude more probable
-        magnitude = 10^1
+        magnitude = 10 ^ 1
         correct_token = token
         highest_prob = 0.0
         target_prob = 0.0
@@ -131,30 +133,18 @@ class RWSE_Checker:
         for result in results:
             if result["token_str"] == token:
                 target_prob = min(result["score"] * magnitude, 1.0)
+                highest_prob = result["score"]
         for result in results:
             # print(f'{result["token_str"]}: {result["score"]}')
             if result["score"] > target_prob and result["score"] > highest_prob:
                 highest_prob = result["score"]
                 correct_token = result["token_str"]
-        # ignore case correction
-        return correct_token if correct_token.lower() != token.lower() else token
+        return correct_token, highest_prob
 
 if __name__ == "__main__":
     rwse = RWSE_Checker()
     rwse.set_confusion_sets('test_confusion_sets.csv')
     token = "there"
     masked_sentence = "I want to buy [MASK] cars."
-    correct_token = rwse.check(token, masked_sentence)
-    print(token, correct_token)
-
-    # no case correction
-
-    masked_sentence = "Once upon a time there was an old mother pig who had [MASK] little pigs and not enough food to feed them."
-
-    token = "Three"
-    correct_token = rwse.check(token, masked_sentence)
-    print(token, correct_token)
-
-    token = "three"
-    correct_token = rwse.check(token, masked_sentence)
-    print(token, correct_token)
+    correct_token, certainty = rwse.check(token, masked_sentence)
+    print(token, correct_token, certainty)
