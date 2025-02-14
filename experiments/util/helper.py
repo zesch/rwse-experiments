@@ -1,4 +1,3 @@
-import csv
 import pandas as pd
 
 def collect_sentences_by_word(list_of_words, list_of_sentences, nlp):
@@ -60,34 +59,41 @@ def replace_confusion_set_words_in_sentences(list_of_sentences_by_confusion_sets
 
 
 def extract_word_statistics(file_name, nlp, list_of_words):
-    list_of_words = sorted(set(item.lower() for item in list_of_words))
-    word_statistics = {word: 0 for word in list_of_words}
+    """
+
+    :param file_name: input file data expected to be from the leipzig corpora (indexed sentences)
+    :param nlp: model used for spacy tokenization
+    :param list_of_words: words to look for in each tokenized sentence
+    :return: DataFrame with list of sentence indices by word form list_of_words
+    """
+    word_statistics = {word: [] for word in list_of_words}
     with open(file_name, 'r') as f:
-        sentences = f.readlines()
-        for sentence in sentences:
+        for line in f.readlines():
+            idx, sentence = line.split('\t')
             doc = nlp(sentence)
             for token in doc:
                 for word in list_of_words:
-                    if word == token.text.lower():
-                        word_statistics[word] += 1
-    temp_df = pd.DataFrame(word_statistics.items(), columns=('word', 'frequency'))
+                    if word == token.text:
+                        word_statistics[word].append(idx)
+    for key, value in word_statistics.items():
+        word_statistics[key] = ','.join(value)
+    temp_df = pd.DataFrame(word_statistics.items(), columns=('word', 'sentence_indices'))
     return temp_df
 
 
-def transform_wortschatz_leipzig(file_name):
-    with open(file_name, 'r') as f:
-        sentences = f.readlines()
-    # sentences of Wortschatz Leipzig are enumerated -> remove enumeration
-    sentences_cleaned = [sentence.split('\t')[1].strip() for sentence in sentences]
-    with open(f'{file_name}_transformed', 'w') as f:
-        for sentence in sentences_cleaned:
-            print(sentence, file=f, end='\n')
+def collect_confusion_set_frequencies(input_df: pd.DataFrame, confusion_set_strings):
+    word_frequencies = dict(zip(input_df['word'], input_df['frequency']))
 
+    confusion_set_frequencies = dict()
 
-def load_confusion_sets_from_file(file_path):
-    result_sets = {}
-    with open(file_path, 'r') as file:
-        for row in csv.reader(file):
-            for key in row:
-                result_sets[key] = list(row)
-    return result_sets
+    for confusion_set in confusion_set_strings:
+        confusion_set_frequencies[confusion_set] = 0
+        confusion_set_list = confusion_set.split(',')
+        for word, frequency in word_frequencies.items():
+            if word in confusion_set_list:
+                confusion_set_frequencies[confusion_set] += frequency
+
+    keys = confusion_set_frequencies.keys()
+    values = confusion_set_frequencies.values()
+
+    return pd.DataFrame({'confusion_set': keys, 'frequency': values}, index=keys)
