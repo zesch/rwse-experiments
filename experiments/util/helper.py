@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 
 def collect_sentences_by_word(list_of_words, list_of_sentences, nlp):
@@ -97,3 +98,61 @@ def collect_confusion_set_frequencies(input_df: pd.DataFrame, confusion_set_stri
     values = confusion_set_frequencies.values()
 
     return pd.DataFrame({'confusion_set': keys, 'frequency': values}, index=keys)
+
+
+def read_classification_report(file_name:str):
+    result = dict()
+    with open(file_name, 'r') as f:
+        lines = f.readlines()
+        for line in lines[1:]:
+            confusion_set, num_matches, num_sequences = line.strip().split(';')
+            result[confusion_set] = (int(num_matches), int(num_sequences))
+    return result
+
+
+def calculate_metrics(file_false_positives:str, file_true_positives:str):
+    confusion_matrix, report_data = calculate_confusion_matrix(file_false_positives, file_true_positives)
+
+    data_mean_sensitivity = normalize_report(file_true_positives)
+    data_mean_fpr = normalize_report(file_false_positives)
+
+    metrics = dict()
+    metrics['precision'] = report_data['TP'] / (report_data['TP'] + report_data['FP'])
+    metrics['mean false-positive rate'] = sum(data_mean_fpr.values()) / len(data_mean_fpr)
+    metrics['mean sensitivity (mean recall)'] = sum(data_mean_sensitivity.values()) / len(data_mean_sensitivity)
+    metrics['sensitivity (recall)'] = report_data['TP'] / (report_data['FN'] + report_data['TP'])
+    metrics['specificity'] = report_data['TN'] / (report_data['FP'] + report_data['TN'])
+    metrics['f1'] = 2 * metrics['precision'] * metrics['sensitivity (recall)'] / (metrics['precision'] + metrics['sensitivity (recall)'])
+    return metrics, confusion_matrix
+
+
+def calculate_confusion_matrix(file_false_positives:str, file_true_positives:str):
+    confusion_matrix_dict = dict()
+    data_false_positives = read_classification_report(file_false_positives)
+
+    confusion_matrix_dict['FP'] = sum(value[0] for value in data_false_positives.values())
+    confusion_matrix_dict['TN'] = sum(value[1] for value in data_false_positives.values()) - confusion_matrix_dict['FP']
+
+    data_true_positives = read_classification_report(file_true_positives)
+    confusion_matrix_dict['TP'] = sum(value[0] for value in data_true_positives.values())
+    confusion_matrix_dict['FN'] = sum(value[1] for value in data_true_positives.values()) - confusion_matrix_dict['TP']
+
+    confusion_matrix = np.matrix([
+        [confusion_matrix_dict['TP'], confusion_matrix_dict['FN']],
+        [confusion_matrix_dict['FP'], confusion_matrix_dict['TN']]
+    ])
+
+    return confusion_matrix, confusion_matrix_dict
+
+
+def normalize_report(file_name:str):
+    report_data = read_classification_report(file_name)
+    normalized_report = dict()
+    for key, item in report_data.items():
+        if item[1] > 0:
+            value = item[0] / item[1]
+            #print(f'{key}: {value:.10f}')
+            normalized_report[key] = value
+        else:
+            normalized_report[key] = 0
+    return normalized_report
