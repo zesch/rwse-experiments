@@ -1,0 +1,139 @@
+result	index	org_token	org_suggestion	masked_sentence	diff_certainty
+TP	208822	were	wear	When dancing ballet, you are required to [MASK] tights with a leotard.	0.92611375
+TP	524374	affect	effect	The Atlantic has a large [MASK] in the north and west.	0.01471661
+FN	1137524	website	websites	Google is one of the biggest and most famous [MASK] for finding things Search Engine on the World Wide Web WWW .They also do things apart from searching.	0.05723967
+TP	16804	work	word	Its name comes from the Greek [MASK] for Sun, helios .It is used to fill balloons and airships because it is lighter than air, and does not burn.	0.97355898
+TP	321273	main	major	In many countries throughout history, religion has also been also a [MASK] source of law.	0.46657784
+FN	143702	dancers	dancing	When people played instruments they were usually playing for [MASK].	0.00082584
+FN	339614	pitch	bitch	There are four things which music often has Music often has [MASK].	0.00000053
+FN	341582	bitch	pitch	There are four things which music often has Music often has [MASK].	0.00000053
+FN	1149974	wheat	weed	One person who owned many cows could trade with another person who owned much [MASK].	0.00070234
+FN	1250703	weed	wheat	One person who owned many cows could trade with another person who owned much [MASK].	0.00070234
+FN	618627	word	world	Where did the [MASK] come from?The word philosophy comes from two Greek words that mean love of wisdom .	0.05879722
+FN	620114	world	word	Where did the [MASK] come from?The world philosophy comes from two Greek words that mean love of wisdom .	0.22564720
+TP	343890	art	part	Leaving Canada Quebec was [MASK] of New France until 1760.Quebec became a province in the Canadian Confederation in 1867.	0.99196986
+TP	7701	leaf	leaves	The four main parts of a tree are the roots, the trunk, the branches, and the [MASK].	0.19394290
+FN	230095	need	use	Large measurements like the width of a galaxy and small measurements like the mass of an atom [MASK] special units of measurement.	0.00247752
+FN	656168	mile	milk	But still keeping the chocloate [MASK] away.	0.00023644
+FN	704016	back	crack	They also have a dark line down their [MASK].	0.32452418
+TP	708056	crack	back	They also have a dark line down their [MASK].	0.32452418
+FN	91284	meal	seal	There is also informal education, for example, a parent teaching a child how to make a [MASK].	0.03187948
+TP	103691	seal	meal	There is also informal education, for example, a parent teaching a child how to make a [MASK].	0.03187948
+FN	291690	live	kill	People have come from around the world to [MASK] in Toronto.	0.43613342
+TP	291693	kill	live	People have come from around the world to [MASK] in Toronto.	0.43613342
+FN	198671	mice	kids	In past times and today still, cats were kept by people because the cats hunted and ate [MASK], rats, and insects.	0.46414796
+TP	198673	kids	mice	In past times and today still, cats were kept by people because the cats hunted and ate [MASK], rats, and insects.	0.46414796
+FN	113586	much	many	The language has not changed [MASK] in 1,000 years, so Icelanders are still able to read the sagas about the Vikings without much problems.	0.93581507
+FN	349003	monks	monkeys	History The first people who lived on Iceland were Irish [MASK].	0.00049418
+TP	350785	monkeys	monks	History The first people who lived on Iceland were Irish [MASK].	0.00049418
+FN	825462	weight	weigh	They no longer [MASK] the same.	0.00001284
+FN	207192	siege	steam	Some of these machines were called catapults or [MASK] engines.	0.01357032
+FN	211968	steam	siege	Some of these machines were called catapults or [MASK] engines.	0.01357032
+TP	28378	king	kind	History of paper Many centuries ago as early as 3000 BC people in Egypt made a [MASK] of paper from the papyrus plant.	0.02131452
+TP	113165	effects	affects	Energy from the sun [MASK] the weather.	0.00041531
+FN	369111	cars	dogs	In recent years new lightweight ideas for [MASK] have been developed to make up for the weight increase due to comfort and safety issues.	0.03365664
+TP	377269	dogs	cars	In recent years new lightweight ideas for [MASK] have been developed to make up for the weight increase due to comfort and safety issues.	0.03365664
+FN	1017341	past	last	The number of elephants has tripled in the [MASK] 6 months.	0.55086519
+TP	786059	dessert	desert	People in the military usually wear clothes called a uniform, which is often in a camouflage pattern which is designed to make the person hard to see in the forest or [MASK].	0.06156314
+TP	162128	guard	guide	When people are blind they use such things as the alphabet in braille and [MASK] dogs to do every day life things.	0.04381128
+TP	126384	caste	castle	He would not keep his wife, his child, his wealth, or his [MASK].	0.00183941
+FN	147342	castle	caste	He would not keep his wife, his child, his wealth, or his [MASK].	0.00183941
+TP	325250	whole	hole	You take it and put it in the groud and pick up the dirt and it makes a [MASK].	0.04728159
+TP	668219	brakes	breaks	Another example is Protease, protease is used to break down protein and it [MASK] it down into even smaller molecules, called amino acids.	0.99265567
+FN	585725	tonnes	tons	The water in a cloud can have a mass of several million [MASK].	0.08969060
+TP	87643	forums	forms	A fuel is a substance that is burned to produce heat, electricity, or other [MASK] of energy.	0.46928436
+FN	1304265	most	many	In what is called The Holocaust, the Nazis killed [MASK] of them.	0.00455841
+FN	156226	died	cried	They were also hit and beaten until they [MASK] Category Nazism	0.00175984
+TP	163256	cried	died	They were also hit and beaten until they [MASK] Category Nazism	0.00175984
+FN	357525	shoes	socks	People working in professions such as business, law, and politics wear dress [MASK].	0.06588159
+FN	357525	boots	socks	People in cold countries such as Canada and Sweden wear winter [MASK] during the cold season.	0.03617730
+TP	357525	socks	shoes	People working in restaurants or retail stores may also wear dress [MASK].	0.08967326
+FN	357525	socks	boots	People in cold countries such as Canada and Sweden wear winter [MASK] during the cold season.	0.03617730
+FN	596362	Sgt	Dr	Rubber Soul 1965 Revolver 1966 [MASK].Pepper s Lonely Hearts Club Band 1967 Magical Mystery Tour 1967 Double EP The Beatles White Album 1968 Yellow Submarine 1969 Abbey Road 1969 Let It Be 1970 Compilations The Beatles 1962-1966 and The Beatles 1967-1970 1973 Rock and Roll Music 1976 Love Songs 1978 Rarities 1980 Reel Music 1982 20 Greatest Hits 1983 Past Masters 1987, two volumes The Beatles Anthology 1995, three volumes The Beatles 1 2000 Love 2006 They also sold many singles 45 s .	0.99668421
+TP	333917	found	founded	Arthur Phillip was born in Britain and [MASK] Sydney in 1788.The first white people who lived there were prisoners from England and Ireland.	0.08521227
+FN	965648	flour	flower	When we grind grain to make a powder, it is called [MASK].	0.13958518
+FN	993187	tent	goat	It is not a place to live that can be easily packed up and carried away like a [MASK], or moved like a caravan.	0.00962766
+TP	1014252	goat	tent	It is not a place to live that can be easily packed up and carried away like a [MASK], or moved like a caravan.	0.00962766
+FN	17804	drunk	drunken	She has a terrible laugh, cackling like a [MASK] witch.	0.01520824
+TP	408431	loose	lose	Dudley was an ambitious man and realised that if either of Edward s half-sisters, Mary or Elizabeth, gained the throne, he would [MASK] his position and might be beheaded.	0.98161694
+TP	139324	bank	band	Personal life Gwyneth was married to Chris Martin, who is the singer of the [MASK] Coldplay on December 5, 2003.Together they have a daughter called Apple, who was born on May 14, 2004.	0.91244749
+FN	716804	farmer	rapper	His parents were Thomas Lincoln, a [MASK], and Nancy Hanks.	0.08327156
+TP	717845	rapper	farmer	His parents were Thomas Lincoln, a [MASK], and Nancy Hanks.	0.08327156
+TP	1037068	brought	bought	It can be bought at shops and normally comes with Microsoft Office, but can be [MASK] separately.	0.30706004
+FN	951291	ancestry	ancestors	Her mother is called Catherine and has Danish and French Canadian [MASK].	0.60053133
+FN	78096	lay	lays	Their mother [MASK] eggs and leave them.	0.03373331
+TP	560529	infamous	famous	He was a totalitarian ruler, and he is [MASK] in history.	0.09304233
+TP	142927	desert	dessert	The traditional meal served at Phillippe s is a French dip sandwich, a bag of potato chips, a soft-drink preferably root beer or cola , and a tapioca pudding cup for [MASK].	0.58271989
+FN	690159	bad	gay	Special care is taken to put Marxism as something very [MASK].	0.00187994
+TP	705687	gay	bad	Special care is taken to put Marxism as something very [MASK].	0.00187994
+FN	1120939	western	eastern	In the [MASK] area, there was the great river, the Mississippi.	0.00803593
+FN	1120952	eastern	western	In the [MASK] area, there was the great river, the Mississippi.	0.00803593
+FN	348751	neck	cock	Hanging Victim dies because their [MASK] is broken ideal case , or through asphyxiation.	0.12100694
+TP	348753	cock	neck	Hanging Victim dies because their [MASK] is broken ideal case , or through asphyxiation.	0.12100694
+FN	484398	cord	chord	It is a member of the [MASK] family.	0.00000172
+FN	24884	isn	wasn	In May 2004 judges said that [MASK] t true.	0.72981524
+TP	487171	depressed	pressed	Typo P instead of O and hitting Z when shift is [MASK].	0.00124262
+FN	561505	pianist	penis	he is a [MASK].	0.00116155
+FN	485526	region	nation	200px thumb Map showing where Catalonia is in Spain Catalonia Catalunya is a [MASK] in the north-east of Spain recognized as an Autonomous Community .Over 7 million people live in the region.	0.81151197
+TP	551022	nation	region	200px thumb Map showing where Catalonia is in Spain Catalonia Catalunya is a [MASK] in the north-east of Spain recognized as an Autonomous Community .Over 7 million people live in the region.	0.81151197
+TP	58981	cent	century	Her preoccupation with female themes and the figurative candor with which she expressed them made her something of a feminist cult figure in the last decades of the 20th [MASK].	0.98731812
+TP	21466	night	light	Animals are being endangered every day, just because you turned on that [MASK].	0.14529918
+FN	29840	race	rape	The [MASK] with the greatest ability to survive is the Aryan race, which is therefore superior.	0.82390669
+TP	30663	rape	race	The race with the greatest ability to survive is the Aryan [MASK], which is therefore superior.	0.97995053
+TP	62139	starting	starring	Douglas aslo was known for his humorous detective novels [MASK] Dirk Gentley, and for his many efforts to promote conservation of endanged species.	0.04429299
+FN	207190	foot	face	150px right Socks are worn on a person s [MASK].	0.00796048
+FN	207345	face	foot	150px right Socks are worn on a person s [MASK].	0.00796048
+FN	514924	sea	ship	The lighthouse is meant to protect ships from crashing into shore by sending the light out towards the [MASK].	0.36320001
+TP	554182	ship	sea	The lighthouse is meant to protect ships from crashing into shore by sending the light out towards the [MASK].	0.36320001
+FN	65118	hand	shaft	A good example of this is the [MASK] of a mammal.	0.00216740
+TP	69255	shaft	hand	A good example of this is the [MASK] of a mammal.	0.00216740
+FN	60036	ugly	gay	The duckling in this story is very [MASK].	0.00220035
+TP	47551	insisting	consisting	The Who are a popular British rock group [MASK] of Roger Daltrey vocals , Pete Townshend guitar , John Entwhistle bass , and Keith Moon drums .The	0.89255398
+FN	1163687	sharks	whales	Most [MASK] are predators, meaning they hunt and eat fish, marine mammals, and other sea creatures, but some of the largest sharks eat small fish and krill, like sharks.	0.99029555
+TP	737736	site	sight	In Korea Kimchi Pots are a common [MASK].	0.05408956
+TP	89921	run	fun	Fishing for fun Fishing for [MASK] is normally done with a fishing rod and line with any number of things to get the fish.	0.98432153
+FN	1163516	good	gay	He disguised himself as Annatar, the Lord of Gifts , and pretended to be [MASK].	0.00178269
+FN	1163518	gay	good	He disguised himself as Annatar, the Lord of Gifts , and pretended to be [MASK].	0.00178269
+TP	471817	erection	eruption	Eruption of 79 Today, people think the [MASK] lasted more than 19 hours.	0.06062432
+TP	1215169	plane	plain	Trikala is built on a large [MASK].	0.00561987
+TP	989684	trunks	trucks	Also, the track spreads the weight of the train which means larger amounts can be carried than with [MASK] and roads.	0.00660586
+FN	185927	crab	crap	Eugene H. Krabs a [MASK] who is the creator of the Krusty Krab restaurant.	0.00001155
+TP	195975	crap	crab	Eugene H. Krabs a [MASK] who is the creator of the Krusty Krab restaurant.	0.00001155
+FN	898781	fancy	gay	It did not cost a lot of money, but it was still very [MASK].	0.00093784
+TP	991444	gay	fancy	It did not cost a lot of money, but it was still very [MASK].	0.00093784
+FN	362230	cat	math	The short way of writing this in [MASK] language is a/b or \frac a b , where b is not 0.Most of the numbers you see every day are rational.	0.00022112
+TP	186281	cooled	called	The idea that something can be split into many parts is [MASK] pluralism.	0.92323046
+FN	997528	eat	fail	The mouth is the hole in the face where we put food when we [MASK].	0.36819602
+TP	1010122	fail	eat	The mouth is the hole in the face where we put food when we [MASK].	0.36819602
+FN	55424	mean	meal	Sometimes, especially in the Southern United States and the United Kingdom dinner can [MASK] a mean eaten in the middle of the day.	0.00017533
+TP	60247	trail	trial	In 2005 there was another [MASK].	0.00616574
+FN	185132	ones	songs	They said they have trouble making short [MASK].	0.00271153
+TP	126570	ear	year	Inflation is measured each [MASK], and the inflation rate is one of the most important indicators.	0.82295536
+TP	1129244	brake	break	Uses of anthrax Anthrax is generally used with the Russians who made many of the strains during the Cold War era to use against the United States if war was ever to [MASK] out.	0.99598680
+TP	309490	ears	years	Several [MASK] earlier adopters and developers of USB gathered in a special hotel in California to test their devices.	0.01998412
+FN	994495	Western	Eastern	Under the Arabic naming rules, it is incorrect to use bin Laden as a [MASK] surname.	0.00028673
+FN	509527	crime	crap	In most countries, rape and other assaults on the sexual integrity of a person is a [MASK] punished harshly, when cases are found.	0.94524648
+TP	524098	crap	crime	In most countries, rape and other assaults on the sexual integrity of a person is a [MASK] punished harshly, when cases are found.	0.94524648
+FN	566242	pole	cow	A fishing rod is basically a line with bait on it, fixed on a [MASK].	0.15102090
+TP	64655	tow	town	Coesfeld has been a [MASK] since 1197.Big villages in county Coesfeld Nottuln Senden Dülmen Havixbeck Billerbeck Category Towns in Germany	0.14260478
+FN	64733	weighs	weight	The old anteaters can [MASK] 40 kg and be 2 meters long.	0.00271393
+TP	898895	boy	body	An undershirt is a general word for a piece of underwear covering the torso, while underpants in the UK, often simply pants , drawers , or shorts cover the part of the [MASK] where the sex organs are.	0.73176556
+TP	194815	office	officer	A police [MASK] typically wears a police suit, which consists of a bulletproof vest.	0.95232806
+FN	197491	animals	mammals	Camels are [MASK] of the Camelidae family.	0.00137424
+FN	204328	pop	soul	Aretha Franklin born March 25, 1942 is an American [MASK] and R&B singer.	0.28259870
+TP	912738	stories	series	Hermione Granger is a character from the Harry Potter [MASK].	0.69106981
+TP	928351	compliment	complement	mRNA mRNA, or Messenger RNA is the [MASK] strand of DNA.A single strand of DNA is a blueprint for mRNA which is transcribed from that DNA strand.	0.00006277
+FN	740221	fishing	fish	The eruption killed 57 people, nearly 7,000 big game animals deer, elk, and bear , and about 12 million fish from a [MASK] farm.	0.02625171
+FN	794884	fund	found	He left instructions in his will that his money should [MASK] the Nobel Prize.	0.07028427
+FN	233806	many	most	The Armenians and [MASK] scholars who say that the genocide did happen say that 1.5 million Armenians were killed by the Ottoman government.	0.00535151
+FN	642121	duck	dick	Especially in Asia, many people like to eat [MASK].	0.00030435
+TP	657934	dick	duck	Especially in Asia, many people like to eat [MASK].	0.00030435
+TP	514088	hunt	eat	Some are smaller than a coin and some are so big they [MASK] small birds.	0.00466089
+FN	302615	own	use	Many people go to see Mackinac Island in the summer because the island passed a local law that says that no one can [MASK] a car on the island.	0.01257510
+TP	937722	stars	starts	After that it [MASK] to tumble and drop.	0.02066190
+TP	1002353	easy	east	The [MASK] mainly spoke the Greek language.	0.00001794
+FN	1030282	money	honey	People who had bad things happen to them or who have lots of [MASK] are more likely to get the disease too.	0.15104122
+TP	1150628	honey	money	People who had bad things happen to them or who have lots of [MASK] are more likely to get the disease too.	0.15104122
+TP	502090	park	part	The electrode is made of the same kind of metal that is being welded, and melts into the weld and becomes [MASK] of it.	0.94527952
+FN	1109051	saxophone	saxophonist	Charlie Parker born August 29, 1920 in Kansas City, Missouri , also known as Bird or Yardbird , is considered one of the greatest jazz saxophonists, specifically alto [MASK].	0.42688832
+TP	333224	spit	split	Primates are [MASK] into two groups simians and prosimians.	0.05290393

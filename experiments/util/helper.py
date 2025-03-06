@@ -1,3 +1,5 @@
+from transformers import AutoTokenizer
+
 import numpy as np
 import pandas as pd
 
@@ -156,3 +158,10 @@ def normalize_report(file_name:str):
         else:
             normalized_report[key] = 0
     return normalized_report
+
+
+def check_token(tokenizer:AutoTokenizer, target:str) ->bool:
+    target_enc = tokenizer.tokenize(target)
+    if len(target_enc) > 1 or target_enc[0] == tokenizer.unk_token:
+        return None
+    return target

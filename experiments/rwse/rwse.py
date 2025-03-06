@@ -11,10 +11,13 @@ T_TOKEN = 'de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token'
 
 class RWSE_Checker:
 
-    def __init__(self, gpu=-1) -> None:
+    def __init__(self, gpu=-1, language='en') -> None:
         # TODO make language aware
         # TODO make model configurable
-        self.pipe = pipeline("fill-mask", model="bert-base-cased", device=gpu)
+        if language == 'en':
+            self.pipe = pipeline("fill-mask", model="bert-base-cased", device=gpu)
+        elif language == 'de':
+            self.pipe = pipeline("fill-mask", model="bert-base-multilingual-cased", device=gpu)
         # self.pipe = pipeline("fill-mask", model="answerdotai/ModernBERT-base", torch_dtype=torch.bfloat16, device=gpu)
 
         self.confusion_sets = None
@@ -119,13 +122,12 @@ class RWSE_Checker:
                     # print(cas_rwse)
         # return cas
 
-    def check(self, token: str, masked_sentence: str) -> (str, float):
+    def check(self, token: str, masked_sentence: str, magnitude=10) -> (str, float):
         # if no need to check return token
         if not self.needs_checking(token):
             return token, None
 
         # In order to be sure about a change, we should be orders of magnitude more probable
-        magnitude = 10 ^ 1
         correct_token = token
         highest_prob = 0.0
         target_prob = 0.0
