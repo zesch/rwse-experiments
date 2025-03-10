@@ -1,173 +1,31 @@
 result	index	org_token	org_suggestion	levenshtein	masked_sentence	certainty
-FN	41103181	Universität	University	2.0	Möglich ist aber auch, dass es „CIS-co“ war – Computer Information Services war die Abteilung der Stanford [MASK], in der die Gründer arbeiteten.	0.06279101
-TP	40668358	Resistance	Résistance	1.0	Wie viele britische Regisseure leistete Hitchcock seine Beiträge für die Kriegspropaganda und drehte unter anderem Kurzfilme zur Unterstützung der französischen [MASK].	0.00903710
-TP	15975937	sin	sind	1.0	Nahezu alle Hochfesten Aluminiumlegierungen [MASK] von dem Problem betroffen.	0.92715454
-TP	3929925	vor	fort	2.0	Dareios setzte inzwischen seine Flucht [MASK].	0.39303997
 TP	3929925	Herr	Heer	1.0	Erst als der Monsun wieder begann, erreichte das [MASK] 325 v. Chr. die Indusmündung und den Indischen Ozean.	0.03260553
-TP	10915230	is	ist	1.0	In den USA [MASK] der Acre als Flächenmaß absolut gebräuchlich.	0.95645142
 TP	21426165	After	Alter	1.0	Im [MASK] von sechs Jahren wurde Turing nach St. Michaels in eine Ganztagsschule geschickt.	0.99185079
-FN	14756882	Juni	Mai	3.0	Im Januar 2006 bestätigte Angelina Jolie, dass sie ein Kind von Brad Pitt erwartet, das im [MASK] zur Welt kommen soll.	0.14137803
-FN	31050312	Februar	February	1.0	24. [MASK]	0.00018337
-TP	436540	jüngeren	anderen	3.0	Dort versuchte man ihn, nachdem er durch Sexspiele mit [MASK] Kindern gegen die lokalen Tabus verstoßen hatte, mit Gewalt anderthalbjährige Isolation umzuerziehen.	0.02290826
-TP	74432427	anerkannt	bekannt	3.0	Bereits in jungen Jahren war Crowley als ausgezeichneter Bergsteiger [MASK].	0.15998521
-TP	3836258	an	ein	2.0	Bereits früh schlug er eine militärische Laufbahn [MASK].	0.89856595
-TP	2965585	sien	sein	2.0	Insbesondere sind Produkte von Apple oft darauf ausgelegt, einfacher zu benutzen zu [MASK], als vergleichbare Produkte, ohne deswegen weniger Funktionen zu bieten.	0.07146834
 TP	26295245	lies	ließ	1.0	Auch gegenüber den zahlreichen vegetarischen Gemeinschaften in Deutschland zeigte er keinerlei Sympathien Noch 1933 verbot er sämtliche Organisationen und [MASK] ihre Vorstände verhaften.	0.12420484
-FN	31987802	Ritter	Reiter	2.0	Hitler soll in den Zwanziger Jahren eine Beziehung zu Maria [MASK] gehabt haben.	0.00058946
-TP	22104048	Departement	Département	1.0	Um die Jahrhundertwende eroberten die Franzosen auch die Saharagebiete Algeriens und es wurde ein [MASK] Frankreichs.	0.05422873
-TP	21976376	Tore	Torre	1.0	Eine Plakette mit einem Foto von Agatha Christie am [MASK] Abbey in Torquay.	0.00181907
 TP	47872734	Wegen	Wagen	1.0	Im Römischen Reich wurden um 200 n. Wagen benutzt, die durch die Muskelkraft von Sklaven im Inneren der [MASK] bewegt wurden.	0.84229612
-TP	4660164	College	Collège	1.0	Danach wurde er Professor für Mathematik an der Pariser Ecole Polytechnique und Professor der Physik im [MASK] de France.	0.72573477
-TP	1115844	gan	gab	1.0	In der Royal Navy [MASK] es seit dem 16. Jahrhundert die Funktion der Vize- und Konteradmirale Vice- bzw. Rear-Admirals , die ursprünglich Stellvertreter des kommandierenden Admirals waren.	0.69113135
-FN	55061773	vergeben	verliehen	3.0	Mit Beschluss des Staatsrates der DDR vom 25. März 1982 wurde zudem der Dienstgrad des Flottenadmiral, äquivalent zum Armeegeneral, geschaffen, jedoch nie [MASK].	0.00421531
-FN	18157445	Stunden	Sekunden	2.0	Das ohnehin knappe Treibstoffbudget der Landefähre wurde durch die zusätzlichen Manöver so strapaziert, dass noch Treibstoff für schätzungsweise dreißig [MASK] Flugzeit in den Tanks verblieb.	0.02236142
 TP	14229212	erhalten	enthalten	2.0	Ebenso beliebt sind die kartoffeln Sieglinde auch Magarethen genannt, sie wachsen direkt am Strand und [MASK] viele Mineralien vom Meer.	0.44340813
 TP	30929844	erhalten	gehalten	2.0	Sie wurden zunächst für einen Zweig des Kuschitischen [MASK], inzwischen ist die von Harold Fleming begründete Abgliederung weitestgehend anerkannt.	0.03979231
 TP	51767464	westlich	wesentlich	2.0	Viele HFA-Autisten sind deshalb als Erwachsene nicht von Asperger-Autisten zu unterscheiden, meistens bleiben jedoch die autistischen Symptome [MASK] deutlicher ausgeprägt als beim Asperger-Syndrom.	0.02676436
-TP	56777126	heraus	hinaus	2.0	Die Entwicklung der Lautsprache erfolgt oft über eine lange Phase der Echolalie, manche der betroffenen Personen kommen über diese Phase nicht [MASK].	0.04648282
-TP	43938169	Projekt	Project	1.0	Das Vorhaben besitzt den Namen Asian Highway [MASK].	0.06075380
-TP	9904672	systems	system	1.0	Betriebssystem heißt auf Englisch operating [MASK].	0.91606665
-TP	19589113	auf	zu	2.0	In den USA änderte er die Schreibweise dann [MASK] „Billy“.	0.62717736
-TP	462086	har	hat	1.0	In hochreinem Zustand [MASK] es eine goldgelbe Farbe, sonst ist es silberweiß.	0.23054183
-TP	4175121	Land	Raum	3.0	Aber er ist auf jeden Fall der größte See im deutschsprachigen [MASK] eben ein Gemeinschaftssee.	0.41587535
-FN	37195050	dar	da	1.0	Durch die Flughafen bedingte Verlegung der Ochtum stellt der Flusslauf das wichtigste Element im Park [MASK].	0.88010663
-TP	12691721	Stunden	Stunde	1.0	Sommerzeit vom letzten Sonntag im März bis zum letzten Sonntag im Oktober, GMT + eine [MASK].	0.02344990
-FN	4407369	ein	vor	3.0	Andererseits schreibt Artikel 65 des Grundgesetzes auch das Ressortprinzip und das Kollegialprinzip [MASK].	0.04358725
-FN	44830509	Beginn	Begin	1.0	Alkali-Mangan-Batterien enthalten seit [MASK] der 1990er Jahre kein Quecksilber mehr.	0.19311553
-FN	53838439	Westen	Südwesten	4.0	Auf der linken Flussseite sind die dominierenden Erhebungen Venusberg und Kreuzberg, nach [MASK] steigt das Stadtgebiet zum Vorgebirge hin an.	0.16606863
-TP	17500842	Espanyol	Español	2.0	Die beiden mit Abstand wichtigsten Parteien im Parlament der Baleren sind der Partit Popular PP und der Partit Socialista [MASK] PSOE.	0.00041972
-TP	202034	sit	ist	2.0	Worin sich ein Gasriese und ein Braunem Zwerg genau unterscheiden [MASK] unter Wissenschaftlern noch umstritten.	0.68154126
-FN	16265127	Feld	Fidel	3.0	Diese erzeugen ihrerseits ein Magnetfeld, das dem erzeugenden [MASK] entgegenwirkt.	0.04705182
-FN	23038073	hat	siet	3.0	„Erwachen“, auch „Erleuchtung“ erfahren [MASK].	0.00006324
-FN	48747185	war	trat	3.0	1164 [MASK] Bologna in den Lombardenbund gegen Friedrich I. Barbarossa eingetreten, 1256 verkündete die Stadt die Legge del Paradiso Paradiesgesetz , das Leibherrschaft und Sklaverei abschaffte und die verbleibenden Sklaven mit öffentlichem Geld freikaufte.	0.77039182
-TP	18462434	klar	knapp	3.0	In Westdeutschland liegen CDU/CSU mit 40,8 % [MASK] vor der SPD mit 38,3 %.	0.00575944
-TP	8993535	Stellen	Stelle	1.0	vollassoziativ fully associative Hier kann sich ein Block an jeder beliebigen [MASK] befinden.	0.71553689
 TP	60483276	wird	wirkt	2.0	Biologische Bedeutung Elementares Chlor [MASK] oxidierend und kann mit pflanzlichem und tierischem Gewebe reagieren.	0.07792240
-TP	6122597	umgebaut	ausgebaut	2.0	Zusätzlich wurde die Veste Coburg zur Festung [MASK].	0.07972118
-TP	6249926	français	française	1.0	Von London aus formierte und dirigierte de Gaulle zunächst die „force [MASK] libre“ FFL.	0.19262899
-FN	9422238	um	ein	3.0	Das CFLN nahm im Juni 1944 den Namen Gouvernement provisoire de la République Française GPRF an und zog im September 1944 in das befreite Paris [MASK].	0.25514185
 TP	46454650	Sommer	Somme	1.0	Frankreich setzte als erste der kriegführenden Nationen an der [MASK] am 22. Februar 1916 Phosgen COCl2 in Reinform ein, nachdem Deutschland es bereits am 31. Mai 1915 als 5%ige Beimengung zum Chlorgas verwendet hatte.	0.01787417
-FN	460546	bestehen	entstehen	3.0	Dieser Kontakt kann durch die Aufnahme von Vertragsverhandlungen [MASK].	0.02156222
-TP	5404814	ab	hat	2.0	Ab 1893 verschärfen sich die Grenzprobleme mit Argentinien, nachdem Bolivien einen Teil der Puna de Atacama an Argentinien abgetreten [MASK].	0.00433802
-FN	25798760	neues	anderes	3.0	Als Jack sechs Jahre alt ist, zieht die Familie in ein [MASK] Haus.	0.02744502
-FN	51382642	hat	het	1.0	In der deutschen Sprache [MASK] sich jedoch die Bedeutung von „Datum“ im allgemeinem Sprachgebrauch auf „Kalenderdatum“ eingeengt.	0.39100167
-FN	7591035	Auflage	Ausgabe	3.0	Bisher erschien aber noch keine deutsche [MASK].	0.04472803
-TP	11304185	Canale	Canal	1.0	In einer Stadtlandschaft zwischen sorgsam staffierten Elbhängen sollte die Elbe als [MASK] Grande fließen.	0.01909075
-TP	18754978	erbaut	erzeugt	3.0	Städtebaulich wurde damit ein Zusammenspiel von historischer und neuer Architektur [MASK].	0.00655622
 TP	8306042	Ecke	Erde	2.0	Duergar Die Duergar, auch Dunkelzwerge oder Grauzwerge genannt, sind eine böse Abart der Zwergenrasse, die sich tief unter der [MASK] verstecken und die das Sonnenlicht verabscheuen.	0.52539390
-FN	25264008	ab	lat	2.0	Der Name dieser Einheit leitet sich von der arabischen bzw. griechischen Bezeichnung für die Samen des Johannisbrotbaums [MASK].	0.84200627
-TP	4307931	Besatzung	Besetzung	1.0	Diese Vorkommen sind einer der Gründe, warum von den Nachbarn Uganda, Ruanda und Burundi durch [MASK] der östlichen Provinzen der Bürgerkrieg immer wieder aufs Neue angefacht wird.	0.02298871
 TP	72767453	Mark	Markt	1.0	Vorrangig in den USA brachten Kamerahersteller wie Canon, Nikon, Konica oder Fuji Weiterentwicklungen dieses Modells auf den [MASK].	0.95566285
-TP	43042980	halten	erhalten	2.0	In der Praxis werden abhängig von den konkreten Formen spezielle Zustandsgrößen wie z. B. kinetische Energie und thermische Energie unterschieden Je nach Art der Zustandsänderung kann die Zustandsform entweder [MASK] bleiben oder sich ändern „Energieformen“.	0.38681972
-TP	31904798	auf	aus	1.0	Am 16. Mai 2007 sprach sich die Europäische Kommission für die Aufnahme von Malta und Zypern in die Eurozone [MASK].	0.71994340
-TP	56810478	Sex	Essex	3.0	Leben Ernest Rutherford war der Sohn von James Rutherford, einem Bauern aus Perth Schottland und Martha Thompson aus Hornchurch [MASK].	0.00018484
-FN	17506419	Regeln	Regel	1.0	Goldene [MASK]	0.00004061
-FN	13010766	Juli	Mai	3.0	Kindheit, Jugend, Studium Ernesto Guevara wurde am 14. [MASK] 1928 als Kind von Celia de la Serna Llosa und Ernesto Guevara Lynch geboren.	0.13994025
-TP	28237232	bekam	bekannt	3.0	Edinburgh ist für seine Universitäten [MASK].	0.00727684
-FN	23322939	These	Theorie	3.0	Die Gegner der [MASK] sehen den 21. März 325 als Referenzdatum für den Frühlingsanfang keineswegs als widerlegt.	0.00081869
-FN	3730312	September	Dezember	3.0	E-Plus ist gegenwärtig [MASK] 2004 der drittgrößte Mobilfunkbetreiber Deutschlands.	0.00032339
-FN	40993863	Prozess	Process	1.0	Der [MASK], Das Schloss und Der Verschollene zahlreiche Erzählungen sowie Briefwechsel mit Felice Bauer und Milena Jesenská.	0.00019450
-FN	24742116	Operator	Operation	2.0	Häufig werden auch die Begriffe Abbildung und [MASK] für Funktionen verwendet.	0.00636595
-TP	17199671	aufgestellt	hergestellt	3.0	Mit ihm wurde ab 1933 zwischen Berlin und Hamburg die damals weltweit schnellste Zugverbindung [MASK].	0.04248387
-FN	14722088	habe	gabe	1.0	Zur damaligen Zeit [MASK] es noch keine Verlängerung und das erste Spiel war ein 1 1. Dieses Remis führte zum zweiten Spiel und diesmal würden die Argentinier besiegt.	0.00085378
-TP	35551424	Action	Aktion	1.0	553 Angeforderte [MASK] nicht angenommen.	0.00033453
 TP	39582158	Hand	Hang	1.0	Am [MASK] des Schlossberges verläuft die Sporgasse, eine vor allen bei Touristen beliebte Einkaufs- und Cafestraße.	0.02553233
-FN	48562799	Januar	Jänner	3.0	Ehrenringträger und Ehrenbürger thumb upright Schwarzenegger im [MASK] 2004 Karlheinz Böhm 16. März 1928 in Darmstadt ist ein österreichischer Schauspieler und Gründer der Organisation „Menschen für Menschen“	0.00949876
-TP	55245629	genannte	sogenannte	2.0	Die bekannteste dieser Konferenzen fand 1997 im japanischen Kyōto statt und brachte als Ergebnis das [MASK] Kyōto-Protokoll hervor.	0.21034203
 FN	5072189	Stadium	Stadion	2.0	Dieses [MASK] wird auch für kulturelle Veranstaltungen genutzt.	0.00052687
 FN	27502267	Glas	Gas	1.0	In der Schmelze wird Kohlensäure frei und löst sich als [MASK] aus dem Glas.	0.01701210
-FN	17959762	Apr	Mai	3.0	-- Frente 21 49, 12. [MASK] 2006	0.00246884
-TP	68048225	Spiele	Spieler	1.0	Erhielt 1978 als erster westlicher [MASK] ein japanisches Profi-Diplom.	0.00275217
-TP	329075	führen	führten	1.0	Auch sie [MASK] keine Beweise, besaßen aber größere Kenntnisse als die Ägypter.	0.02585882
-FN	808293	verde	verte	1.0	In Frankreich gibt es sie als sauce [MASK] , in Italien als salsa verde , jedoch mit anderen Kräutern als in Frankfurt üblich.	0.62979156
-FN	41952780	fällt	fallen	3.0	In der allgemeinen Relativitätstheorie ist hingegen jede Form von Energie Quelle eines solchen Feldes darunter [MASK] auch Licht und Gravitation.	0.00008201
-FN	3923741	Napoléon	Napoleon	1.0	Eine Erhebung 1809 in Tirol durch Andreas Hofer wurde durch [MASK] niedergeschlagen.	0.00230232
-FN	24447148	Texten	Text	2.0	Der erste IBM PC kam 1981 mit einer Karte auf den Markt, die lediglich die einfarbige Darstellung von [MASK] ermöglichte MDA Monochrome Display Adapter.	0.00012226
-TP	529239	Communication	Communications	1.0	GSM Abk. für Global System for Mobile [MASK] , engl, vorher Group Special Mobile , frz. Bezeichnung eines Mobilfunk-Standards, hauptsächlich für Telefonie.	0.17601046
-TP	41329701	Teilen	Teile	1.0	Während die Frucht einer Pflanze als Obst bezeichnet wird, bezeichnet man als Gemüse die restlichen [MASK] der Pflanze, wie Wurzel, Blatt und Stängel.	0.28456354
-FN	47311638	November	Dezember	3.0	291 30. [MASK] 2007	0.01299806
-TP	67839	File	Filme	1.0	Der Kernpunkt ist, dass man mit elektronischer Hilfe den Verweisen leicht folgen kann und dass Bücher und [MASK] aus einer Bibliothek angezeigt werden.	0.00297992
-FN	44921717	wird	will	2.0	Im April 2008 bestätigte Kohls Büro, dass der ehemalige Bundeskanzler seine Lebensgefährtin Maike Richter im Laufe des Jahres heiraten [MASK].	0.02376406
-FN	52935996	Himmel	Himmler	2.0	thumb Heinrich Himmler auf einer falschen britischen Kriegspropagandabriefmarke Heinrich Luitpold [MASK] 7. Oktober 1900 in München;	0.00000179
-TP	2534261	vor	auf	3.0	Heroin taucht auf dem illegalen Markt in Konzentrationen von etwa 10 bis 15 % Base [MASK].	0.00162603
-FN	26370843	ab	ein	3.0	Zum Schluss reibt man sich Hände und Unterarme mit dem Desinfektionsmittel 3min [MASK].	0.00028744
-FN	49472607	March	März	3.0	270, no. 5, p. 155-170, [MASK], 1888.	0.00698009
 FN	6183302	Haus	Herz	3.0	Die eigene zur Faust geschlossene Hand stellt das [MASK] dar.	0.00125701
-TP	11606886	nemen	nehmen	1.0	Das Herz produziert in seinen Vorhöfen auch dehnungsabhängig ein harntreibendes Hormon, das atriale natriuretische Peptid ANP , um Einfluss auf das zirkulierende Blutvolumen zu [MASK].	0.28060997
-TP	71484147	vor	hervor	3.0	Hierbei sticht insbesondere die Verleihung der neunten Kurwürde an Ernst August von Hannover 1692 [MASK].	0.20473482
-FN	73906532	benannt	umbenannt	2.0	Κωνσταντινούπολις – Konstantinoupolis, „Stadt des Constantin“ [MASK].	0.00000194
-FN	5699909	Länder	Lager	3.0	Zwischen 1916 und 1918 veröffentlichte das IKRK mehrere Ansichtskarten mit Motiven der von seinen Delegierten besuchten [MASK].	0.02489738
-TP	48321608	Bericht	Bereich	2.0	Neben dem Beratungszweig finden hauptsächlich in diesem [MASK] die zahlreichen Dienstangebote ihr Zuhause.	0.22094791
-FN	23293476	fiel	fällt	3.0	Das alte Mesopotamien [MASK] 539 v. Chr. bei der Unterwerfung Babyloniens an das aufstrebende Perserreich unter Kyros.	0.41961572
-TP	11069627	volgende	folgende	1.0	Die Induktion kann also in [MASK] Stadien unterteilt werden Induktionsanfang Induktionsvoraussetzung	0.45393991
-FN	2912032	Kaufmann	Kaufman	1.0	Er durchlebte hier förmlich ein zweites Mal das Leben von [MASK] und verschmolz völlig mit der Rolle.	0.00016174
 TP	5919128	bekommen	gekommen	1.0	1795 begann seine Freundschaft mit Schiller, der erst als Historieprofessor nach Jena [MASK] ist.	0.69755453
 TP	8409294	Homo	Homer	2.0	Schon früh interessierte er sich für die Literatur, wobei er sein Augenmerk zunächst auf Friedrich Gottlieb Klopstock und [MASK] richtete.	0.00030946
 TP	9469387	Mode	Monde	1.0	Der Hauptring Main Ring zum Beispiel besteht aus dem Staub der [MASK] Adrastea und Metis.	0.00015928
 TP	24450019	Jaguar	Januar	1.0	Der [MASK] v. lat. ianua „Tür, Zugang“ ist der erste Monat des Jahres im Gregorianischen Kalender.	0.00005337
-FN	70310017	Aufl	Auflage	3.0	4. aktualisierte [MASK].	0.01199196
-TP	21088139	Energie	Energy	2.0	Bekannte Jeansmarken sind u. a. Levi s, Mustang, MAC Jeans, Meltin Pot, Miss Sixty, Wrangler, Lee, Mavi Jeans, Diesel, G-Star, [MASK], EDWIN heute Blue One und Replay.	0.00016967
-FN	16112862	Mond	Sonne	3.0	Johannes Kepler wohnte von 1579 bis 1584 mit seinen Eltern in Ellmendingen, wo sein Vater das Gasthaus „[MASK]“ gepachtet hatte.	0.00014554
-FN	40277681	Dezember	December	1.0	27. [MASK] 1571 in Weil der Stadt;	0.03049427
-FN	10777367	auf	an	2.0	Im Juli und August 1952 nahm Dean aus Geldnot einen Job als Regieassistent bei NBC [MASK].	0.14665532
-TP	3808065	Academie	Académie	1.0	Und so wurde dessen nächste Oper Armide nicht am Hof, sondern in der Pariser [MASK] royale uraufgeführt.	0.22488098
-FN	24903741	Eltern	Vater	3.0	Daher betrachteten Gödels [MASK] die Beziehung als Mesalliance, und die beiden hielten zunächst die Beziehung geheim und heirateten erst 1938 nach dem Tod von Gödels Eltern.	0.89780557
-FN	18840142	Kardinal	Cardinal	1.0	Zur artenreichen und gesangsstarken Vogelwelt zählen der [MASK], der Waldsänger, der Baltimore-Pirol und die Spott-Drossel.	0.00002423
-FN	13129506	Staaten	Staten	1.0	Bedingt durch den Hauptstadtcharakter, sind in Kopenhagen die Botschaften und Emissäre von 187 [MASK] vertreten.	0.02878361
-TP	22170525	Falls	Falle	1.0	Der eine ist ein öffentlicher Schlüssel, der im [MASK] eines Verschlüsselungsverfahrens zum Verschlüsseln von Nachrichten für den Schlüsselinhaber benutzt wird.	0.00963551
-TP	56860836	Doktor	Doctor	1.0	May 2006 Ehrendoktorwürde der University of Tokyo, Ehrendoktorat 18. Mai 2006 Orden vom Niederländischen Löwen, Knight Grand Cross 2006 Doktorwürde der Georgetown University, [MASK] of Humane Letters 30. Oktober 2006	0.89816028
-TP	22328455	od	bzw	3.0	Das kyrillische Alphabet auch Asbuka [MASK].	0.05773820
-TP	20400266	fest	fort	2.0	Diese Bearbeitungen setzten sich in anderer Form auch in der Nachkriegszeit [MASK].	0.50896460
-TP	74184193	fest	ein	3.0	Von 1870 bis 1874 saß er im Zuchthaus Waldheim [MASK].	0.00244206
-FN	14216225	Stadt	Altstadt	4.0	Das größte Straßenfest in der [MASK] ist die Thäler Kerb.	0.19022653
-FN	5100544	anno	annum	2.0	Diese Zinsen werden im Regelfall als Jahreszins und in Prozent per [MASK] % p. a. angegeben.	0.00000070
-TP	54053191	Fuck	Funk	1.0	Pertyoideae Panero & [MASK]	0.00004318
-FN	51935621	gab	gabe	1.0	Jugend in New Orleans Louis Armstrong selbst [MASK] stets den 4. Juli, also den Unabhängigkeitstag der USA, des Jahres 1900 als sein Geburtsdatum an.	0.00983984
 TP	42116395	Model	Modell	1.0	Im [MASK] würde ein Lichtstrahl von der Erde, in ca. 1,2 Sekunden den Mond erreichen.	0.00075578
-TP	8900203	National	Natural	3.0	Nahe befinden sich das Science Museum London und die Museen für Geologie und Naturgeschichte auch Naturhistorisches Museum [MASK] History Museum.	0.10304660
-FN	32506946	Revolution	Evolution	2.0	[MASK]	0.00000733
 TP	35242410	Reine	Reihe	1.0	Landschaftsplanung kann man in Deutschland an einer [MASK] von Universitäten Diplom, Bachelor, Master und Fachhochschulen studieren.	0.13567692
-FN	5642841	Theater	Theatre	2.0	Royale [MASK], Broadway, New York	0.03324971
 TP	10942081	Station	Stadion	1.0	Unbreakable Hier spielt er den vermeintlichen Drogendealer der im [MASK] gestellt wird.	0.00013092
 TP	53178085	Regio	Regie	1.0	Von 2007-2008 produzierte er die Zeichentrickserie Spaceballs The Animated Series mit und führte bei einigen Episoden [MASK].	0.49827155
 TP	1709369	Architekten	Architektur	2.0	Das Wort Modell entstand im Italien der Renaissance modello, hervorgegangen aus modulo, dem Maßstab in der [MASK] und gehörte bis ins 18. Jahrhundert der Fachsprache der bildenden Künstler an.	0.00387333
-FN	4421495	her	dar	2.0	AA Bussy stellte es 1831 in massiver Form [MASK].	0.03355724
-FN	3521878	Arbeit	Arbeiten	2.0	Siegel der Hände, mit der Enthaltung jeglicher [MASK].	0.00573525
-TP	3198901	findes	findet	1.0	Eine hervorragende Bibliographie [MASK] sich hier erstellt vom Historischen Seminar der Uni.	0.09958626
-FN	33718449	Test	Text	1.0	echo parameter Befehl, der eine Meldung ausgibt, z. &nbsp;B. echo [MASK].	0.00011428
 TP	14206412	weißen	weisen	1.0	Die Einteilung soll daher lediglich die Richtung [MASK], nicht aber exakte Auskünfte über die Therapie geben.	0.00019283
-FN	70042481	dar	war	1.0	Diese Umgebung stellt eine komplette Kopie des alten Mac OS 9. 2 unter Mac OS X [MASK] und ist auf späteren, intelbasierten Macintoshs nicht verfügbar, da Mac OS 9 nie auf x86-Hardware lauffähig war.	0.91044569
-FN	23604890	gegeben	ergeben	2.0	Hier hat sich keine wesentliche Neuerung außer Modifizierungen der Glühkerzen [MASK].	0.01294474
-TP	42013365	Stat	Start	1.0	Die Glühkerzen des Dieselmotors bzw. Mehrstoffmotors sind nur Hilfsmittel zum Kaltstart alternativ können auch hochentzündliche Startbrennstoffe beim [MASK] zugespeißt werden.	0.01902406
-TP	12717797	Angel	Ángel	1.0	Latina Los Cármenes, Puerta del [MASK], Lucero, Aluche, Las Águilas, Campamento, Cuatro Vientos 11.	0.00148763
-FN	25417148	führt	führen	2.0	Die zunehmende Haltung von Rindern und der häufige Reisanbau [MASK] zu einer Verstärkung des Treibhauseffektes.	0.00714737
-TP	40776631	aus	hin	3.0	Das inzwischen sehr umfangreiche Fundmaterial vor allem auch in Nahost weist auf eine Koexistenz dieser genetisch primär sehr unterschiedlichen biologischen Arten [MASK].	0.35863882
-FN	30544062	trägt	tritt	2.0	Paul Schwenk, Politiker KPD , Mitglied des preußischen Landtages, † 22. August 1960 in Berlin 1885, 17. Januar, Willy Anker , SPD-Ortsvorsitzender 1923-1933, [MASK] am 6. Mai 1945 trotz angedrohter Erschießung entscheidend zur kampflosen Übergabe Meißens an die Rote Armee bei.	0.00089812
-TP	43798531	ward	wird	1.0	Nachdem Protis an Land gegangen war, um sich mit der schönen Ligurerin Gyptis zu vereinen, [MASK] Marseille gegründet.	0.07916901
-TP	73429395	Sex	Tod	3.0	Nach dem [MASK] des letzten Großherzogs vermachte seine überlebende Schwester Anna Maria Luisa de’ Medici 1667–1743 die gesammelten Kunstschätze der Medici der Stadt Florenz.	0.69584656
-FN	18486913	Vereinigten	Vereinigte	1.0	Der Streit wurde dabei diplomatisch durch die Vermittlung der [MASK] Staaten von Amerika und der EU entschärft.	0.99654925
-FN	47475493	Westen	Osten	2.0	Bewaldet sind im Wesentlichen nur die Mittelgebirge im Süden und [MASK] des Landes.	0.18935512
-TP	43591280	heit	heißt	1.0	Im VwVfG [MASK] es in §23 1	0.12319004
-TP	66726790	Frauen	Formen	3.0	Für die verschiedenen [MASK] von nichtstaatlichen Organisationen haben sich teilweise eigene Fachbegriffe eingebürgert, darunter Internationale Nichtregierungsorganisation engl.	0.20799689
-FN	188771	aus	nach	3.0	Entgegen dem internationalem Trend denkt die Regierung über eine Ausweitung der Wehrpflicht auf Frauen [MASK].	0.01106749
 TP	21391375	Satz	Sitz	1.0	Der provisorische irakische Regierungsrat erhält einen [MASK] in der Arabischen Liga;	0.43077728
-TP	171307	Pater	Vater	1.0	Sein [MASK] verschaffte Napoléon eine Erziehung in Frankreich.	0.58697271
-FN	23036133	gehen	fahren	3.0	Mit zwölf Jahren hegte er den Wunsch, zur See zu [MASK].	0.25879666
-FN	22203591	statt	steht	2.0	Nach dem Ende des Banketts richtet traditionell die Studentenvereinigung einer der Stockholmer Hochschulen ein aufwändiges Fest aus, das unter einem bestimmten Thema [MASK].	0.02118356
-FN	26527206	Country	County	1.0	Größte Städte Stadt [MASK] Einwohner	0.00002700
-TP	52334725	States	Staates	1.0	BSP des [MASK] New York ca. 900 Mrd. US-Dollar Anteil am Gesamt-BSP der USA 7,8 % BSP des Staates New York pro Kopf 46 617 US-Dollar US-Durchschnitt 37 714 US-Dollar Wirtschaftswachstum 2006 3,4 % US-Durchschnitt 3,4 % U.	0.99730432
-TP	70649467	volumen	volumes	1.0	The Zoological Society of London, [MASK] 1–10, London.	0.01751733
-FN	57018671	wird	fand	3.0	Die 81. Oscarverleihung für das Filmjahr 2008 [MASK] am 22. Februar 2009 stattfinden.	0.05512749
-FN	14415687	Moderne	Andere	3.0	[MASK] Formen	0.00004070
-FN	1839606	Stadt	Staat	1.0	Dieser Artikel befasst sich mit dem [MASK] Ottawa, andere Bedeutungen unter Ottawa Begriffsklärung.	0.00581773
-FN	5746824	Organisation	Organization	1.0	Die Abkürzung OECD steht für [MASK] for Economic Co-operation and Development englisch.	0.46642500
-TP	14339311	ren	hören	2.0	Einige Eidechsen- und Salamanderarten [MASK] mit Brustkorb und Lunge.	0.00019835
-TP	17372124	Spiele	Spielen	1.0	Der Begriff der Olympiade wird seit 1896 seit den ersten Olympischen [MASK] der Neuzeit wieder für diesen Zeitraum geprägt.	0.99091524
 TP	31393039	Still	Stil	1.0	Er entdeckte Hymnen des Mesomedes, die heute verloren sind, und schrieb ein Traktat gegen die niederländische Polyphonie&nbsp;– einer der deutlichsten Beweise für den gewünschten musikalischen [MASK].	0.13762313
 TP	41029296	Opfer	Oper	1.0	Entstehung der [MASK] thumb Claudio Monteverdi	0.00189958
-TP	470754	West	Westen	2.0	Begrenzt wird es im Osten durch den Schwarzwald, im Westen durch die Vogesen, weiter rheinabwärts durch den Pfälzer Wald im [MASK] und den Odenwald im Osten.	0.28694937
 TP	45707570	Zwei	Zweig	1.0	Popmusik ist der lukrativste [MASK] der Musikindustrie.	0.00027602
-FN	38794857	Texte	Werke	3.0	Nach deutschem Recht wird der Begriff Gemeinfreiheit auch und besonders für amtliche [MASK] gebraucht, die von vornherein keinen oder nur eingeschränkten Urheberrechtsschutz genießen UrhG.	0.00012467
-FN	30194707	Brad	Brett	3.0	Einmal, bevor er [MASK] erschießt und einmal, während er Pumpkin einen Vortrag über seinen Sinneswandel hält.	0.00009758
-TP	30875256	Buch	Butch	1.0	Als Butch Maynard ersticht und dann Zed mit dem Schwert bedroht sieht man das Schwert auf vor der Szene in der es [MASK] umdreht auf Zed zeigen.	0.01417492
 TP	10944509	Rechts	Rechte	1.0	Gleichwohl wurden diese [MASK] vom Zaren nicht respektiert.	0.00082813
