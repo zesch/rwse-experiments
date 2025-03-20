@@ -122,16 +122,21 @@ class RWSE_Checker:
                     # print(cas_rwse)
         # return cas
 
-    def check(self, token: str, masked_sentence: str, magnitude=10) -> (str, float):
+    def check(self, token: str, masked_sentence: str, magnitude=10, return_all=False) -> (str, float):
         # if no need to check return token
         if not self.needs_checking(token):
             return token, None
 
+        results = self.pipe(masked_sentence, targets=self.confusion_sets[token])
+        if return_all:
+            return results
+        return self.evaluate(token, results, magnitude)
+
+    def evaluate(self, token, results, magnitude) -> (str, float):
         # In order to be sure about a change, we should be orders of magnitude more probable
         correct_token = token
         highest_prob = 0.0
         target_prob = 0.0
-        results = self.pipe(masked_sentence, targets=self.confusion_sets[token])
         for result in results:
             if result["token_str"] == token:
                 target_prob = min(result["score"] * magnitude, 1.0)
