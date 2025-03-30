@@ -98,7 +98,7 @@ class RWSE_Checker:
     def needs_checking(self, token):
         return token in self.confusion_sets
 
-    def check_cas(self, cas: Cas, ts):
+    def check_cas(self, cas: Cas, ts, magnitude=10):
         try:
             RWSE = ts.get_type(T_RWSE)
         except TypeNotFoundError:
@@ -113,7 +113,7 @@ class RWSE_Checker:
 
                 token_str = tokens[i].get_covered_text()
 
-                correct_token_str, correct_token_crt = self.check(token_str, masked_sentence=masked_sentence)
+                correct_token_str, correct_token_crt = self.check(token_str, masked_sentence=masked_sentence, magnitude=magnitude)
                 if token_str.lower() != correct_token_str.lower():
                     # TODO set correction feature
                     cas_rwse = RWSE(begin=tokens[i].begin, end=tokens[i].end, suggestion=correct_token_str,
