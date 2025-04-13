@@ -1,50 +1,50 @@
-result	index	org_token	org_suggestion	levenshtein	masked_sentence	certainty
-TP	208822	were	wear	2.0	When dancing ballet, you are required to [MASK] tights with a leotard.	0.92611378
-TP	524374	affect	effect	1.0	The Atlantic has a large [MASK] in the north and west.	0.01481276
-TP	16804	work	word	1.0	Its name comes from the Greek [MASK] for Sun, helios.	0.96160728
-FN	341582	bitch	pitch	1.0	There are four things which music often has Music often has [MASK].	0.00000095
-FN	1250703	weed	wheat	3.0	One person who owned many cows could trade with another person who owned much [MASK].	0.00011131
-TP	343890	art	part	1.0	Leaving Canada Quebec was [MASK] of New France until 1760.	0.99031371
-FN	656168	mile	milk	1.0	But still keeping the chocloate [MASK] away.	0.00005427
-TP	708056	crack	back	2.0	They also have a dark line down their [MASK].	0.32452562
-TP	103691	seal	meal	1.0	There is also informal education, for example, a parent teaching a child how to make a [MASK].	0.03224117
-TP	350785	monkeys	monks	2.0	History The first people who lived on Iceland were Irish [MASK].	0.00049524
-FN	211968	steam	siege	3.0	Some of these machines were called catapults or [MASK] engines.	0.03355380
-TP	28378	king	kind	1.0	History of paper Many centuries ago as early as 3000 BC people in Egypt made a [MASK] of paper from the papyrus plant.	0.02135541
-TP	113165	effects	affects	1.0	Energy from the sun [MASK] the weather.	0.00042010
-FN	147342	castle	caste	1.0	He would not keep his wife, his child, his wealth, or his [MASK].	0.00192148
-TP	325250	whole	hole	1.0	You take it and put it in the groud and pick up the dirt and it makes a [MASK].	0.04744698
-TP	668219	brakes	breaks	2.0	Another example is Protease, protease is used to break down protein and it [MASK] it down into even smaller molecules, called amino acids.	0.99265575
-TP	87643	forums	forms	1.0	A fuel is a substance that is burned to produce heat, electricity, or other [MASK] of energy.	0.46928436
-TP	333917	found	founded	2.0	Arthur Phillip was born in Britain and [MASK] Sydney in 1788.	0.07522795
-TP	408431	loose	lose	1.0	Dudley was an ambitious man and realised that if either of Edward s half-sisters, Mary or Elizabeth, gained the throne, he would [MASK] his position and might be beheaded.	0.98161870
-TP	139324	bank	band	1.0	Personal life Gwyneth was married to Chris Martin, who is the singer of the [MASK] Coldplay on December 5, 2003.	0.91538924
-TP	1037068	brought	bought	1.0	It can be bought at shops and normally comes with Microsoft Office, but can be [MASK] separately.	0.30764300
-TP	142927	desert	dessert	1.0	The traditional meal served at Phillippe s is a French dip sandwich, a bag of potato chips, a soft-drink preferably root beer or cola , and a tapioca pudding cup for [MASK].	0.58271998
-FN	484398	cord	chord	1.0	It is a member of the [MASK] family.	0.00000179
-TP	487171	depressed	pressed	2.0	Typo P instead of O and hitting Z when shift is [MASK].	0.00132111
-TP	21466	night	light	1.0	Animals are being endangered every day, just because you turned on that [MASK].	0.14620470
-TP	62139	starting	starring	1.0	Douglas aslo was known for his humorous detective novels [MASK] Dirk Gentley, and for his many efforts to promote conservation of endanged species.	0.04429410
-TP	47551	insisting	consisting	2.0	The Who are a popular British rock group [MASK] of Roger Daltrey vocals , Pete Townshend guitar , John Entwhistle bass , and Keith Moon drums.	0.89617914
-TP	737736	site	sight	3.0	In Korea Kimchi Pots are a common [MASK].	0.05479917
-TP	89921	run	fun	1.0	Fishing for fun Fishing for [MASK] is normally done with a fishing rod and line with any number of things to get the fish.	0.98432529
-TP	471817	erection	eruption	2.0	Eruption of 79 Today, people think the [MASK] lasted more than 19 hours.	0.06062919
-TP	1215169	plane	plain	2.0	Trikala is built on a large [MASK].	0.00563999
-TP	989684	trunks	trucks	1.0	Also, the track spreads the weight of the train which means larger amounts can be carried than with [MASK] and roads.	0.00661401
-TP	195975	crap	crab	1.0	Eugene H. Krabs a [MASK] who is the creator of the Krusty Krab restaurant.	0.00001158
-TP	186281	cooled	called	2.0	The idea that something can be split into many parts is [MASK] pluralism.	0.92323047
-FN	55424	mean	meal	1.0	Sometimes, especially in the Southern United States and the United Kingdom dinner can [MASK] a mean eaten in the middle of the day.	0.00017566
-TP	60247	trail	trial	2.0	In 2005 there was another [MASK].	0.00622534
-TP	126570	ear	year	1.0	Inflation is measured each [MASK], and the inflation rate is one of the most important indicators.	0.82295555
-TP	1129244	brake	break	2.0	Uses of anthrax Anthrax is generally used with the Russians who made many of the strains during the Cold War era to use against the United States if war was ever to [MASK] out.	0.99598688
-TP	309490	ears	years	1.0	Several [MASK] earlier adopters and developers of USB gathered in a special hotel in California to test their devices.	0.01998415
-TP	64655	tow	town	1.0	Coesfeld has been a [MASK] since 1197.	0.08074598
-TP	194815	office	officer	1.0	A police [MASK] typically wears a police suit, which consists of a bulletproof vest.	0.95233041
-TP	928351	compliment	complement	1.0	mRNA mRNA, or Messenger RNA is the [MASK] strand of DNA.	0.00015433
-FN	794884	fund	found	1.0	He left instructions in his will that his money should [MASK] the Nobel Prize.	0.07035944
-TP	657934	dick	duck	1.0	Especially in Asia, many people like to eat [MASK].	0.00031510
-TP	937722	stars	starts	1.0	After that it [MASK] to tumble and drop.	0.02066216
-TP	1002353	easy	east	1.0	The [MASK] mainly spoke the Greek language.	0.00001799
-TP	1150628	honey	money	1.0	People who had bad things happen to them or who have lots of [MASK] are more likely to get the disease too.	0.15105188
-TP	502090	park	part	1.0	The electrode is made of the same kind of metal that is being welded, and melts into the weld and becomes [MASK] of it.	0.94527954
-TP	333224	spit	split	1.0	Primates are [MASK] into two groups simians and prosimians.	0.05290393
+result_fw	result_bw	index	org_token	org_suggestion	levenshtein	masked_sentence
+TP	TN	208822	were	wear	2.0	When dancing ballet, you are required to [MASK] tights with a leotard.
+TP	TN	524374	affect	effect	1.0	The Atlantic has a large [MASK] in the north and west.
+TP	TN	16804	work	word	1.0	Its name comes from the Greek [MASK] for Sun, helios.
+FN	TN	341582	bitch	pitch	1.0	There are four things which music often has Music often has [MASK].
+FN	TN	1250703	weed	wheat	3.0	One person who owned many cows could trade with another person who owned much [MASK].
+TP	TN	343890	art	part	1.0	Leaving Canada Quebec was [MASK] of New France until 1760.
+FN	TN	656168	mile	milk	1.0	But still keeping the chocloate [MASK] away.
+TP	TN	708056	crack	back	2.0	They also have a dark line down their [MASK].
+TP	TN	103691	seal	meal	1.0	There is also informal education, for example, a parent teaching a child how to make a [MASK].
+TP	TN	350785	monkeys	monks	2.0	History The first people who lived on Iceland were Irish [MASK].
+FN	TN	211968	steam	siege	3.0	Some of these machines were called catapults or [MASK] engines.
+TP	TN	28378	king	kind	1.0	History of paper Many centuries ago as early as 3000 BC people in Egypt made a [MASK] of paper from the papyrus plant.
+TP	TN	113165	effects	affects	1.0	Energy from the sun [MASK] the weather.
+FN	FP	147342	castle	caste	1.0	He would not keep his wife, his child, his wealth, or his [MASK].
+TP	TN	325250	whole	hole	1.0	You take it and put it in the groud and pick up the dirt and it makes a [MASK].
+TP	TN	668219	brakes	breaks	2.0	Another example is Protease, protease is used to break down protein and it [MASK] it down into even smaller molecules, called amino acids.
+TP	TN	87643	forums	forms	1.0	A fuel is a substance that is burned to produce heat, electricity, or other [MASK] of energy.
+TP	TN	333917	found	founded	2.0	Arthur Phillip was born in Britain and [MASK] Sydney in 1788.
+TP	TN	408431	loose	lose	1.0	Dudley was an ambitious man and realised that if either of Edward s half-sisters, Mary or Elizabeth, gained the throne, he would [MASK] his position and might be beheaded.
+TP	TN	139324	bank	band	1.0	Personal life Gwyneth was married to Chris Martin, who is the singer of the [MASK] Coldplay on December 5, 2003.
+TP	TN	1037068	brought	bought	1.0	It can be bought at shops and normally comes with Microsoft Office, but can be [MASK] separately.
+TP	TN	142927	desert	dessert	1.0	The traditional meal served at Phillippe s is a French dip sandwich, a bag of potato chips, a soft-drink preferably root beer or cola , and a tapioca pudding cup for [MASK].
+FN	FP	484398	cord	chord	1.0	It is a member of the [MASK] family.
+TP	TN	487171	depressed	pressed	2.0	Typo P instead of O and hitting Z when shift is [MASK].
+TP	TN	21466	night	light	1.0	Animals are being endangered every day, just because you turned on that [MASK].
+TP	TN	62139	starting	starring	1.0	Douglas aslo was known for his humorous detective novels [MASK] Dirk Gentley, and for his many efforts to promote conservation of endanged species.
+TP	TN	47551	insisting	consisting	2.0	The Who are a popular British rock group [MASK] of Roger Daltrey vocals , Pete Townshend guitar , John Entwhistle bass , and Keith Moon drums.
+TP	TN	737736	site	sight	3.0	In Korea Kimchi Pots are a common [MASK].
+TP	TN	89921	run	fun	1.0	Fishing for fun Fishing for [MASK] is normally done with a fishing rod and line with any number of things to get the fish.
+TP	TN	471817	erection	eruption	2.0	Eruption of 79 Today, people think the [MASK] lasted more than 19 hours.
+TP	TN	1215169	plane	plain	2.0	Trikala is built on a large [MASK].
+TP	TN	989684	trunks	trucks	1.0	Also, the track spreads the weight of the train which means larger amounts can be carried than with [MASK] and roads.
+TP	TN	195975	crap	crab	1.0	Eugene H. Krabs a [MASK] who is the creator of the Krusty Krab restaurant.
+TP	TN	186281	cooled	called	2.0	The idea that something can be split into many parts is [MASK] pluralism.
+FN	FP	55424	mean	meal	1.0	Sometimes, especially in the Southern United States and the United Kingdom dinner can [MASK] a mean eaten in the middle of the day.
+TP	TN	60247	trail	trial	2.0	In 2005 there was another [MASK].
+TP	TN	126570	ear	year	1.0	Inflation is measured each [MASK], and the inflation rate is one of the most important indicators.
+TP	TN	1129244	brake	break	2.0	Uses of anthrax Anthrax is generally used with the Russians who made many of the strains during the Cold War era to use against the United States if war was ever to [MASK] out.
+TP	TN	309490	ears	years	1.0	Several [MASK] earlier adopters and developers of USB gathered in a special hotel in California to test their devices.
+TP	TN	64655	tow	town	1.0	Coesfeld has been a [MASK] since 1197.
+TP	TN	194815	office	officer	1.0	A police [MASK] typically wears a police suit, which consists of a bulletproof vest.
+TP	TN	928351	compliment	complement	1.0	mRNA mRNA, or Messenger RNA is the [MASK] strand of DNA.
+FN	FP	794884	fund	found	1.0	He left instructions in his will that his money should [MASK] the Nobel Prize.
+TP	TN	657934	dick	duck	1.0	Especially in Asia, many people like to eat [MASK].
+TP	TN	937722	stars	starts	1.0	After that it [MASK] to tumble and drop.
+TP	TN	1002353	easy	east	1.0	The [MASK] mainly spoke the Greek language.
+TP	TN	1150628	honey	money	1.0	People who had bad things happen to them or who have lots of [MASK] are more likely to get the disease too.
+TP	TN	502090	park	part	1.0	The electrode is made of the same kind of metal that is being welded, and melts into the weld and becomes [MASK] of it.
+TP	TN	333224	spit	split	1.0	Primates are [MASK] into two groups simians and prosimians.

@@ -1,31 +1,31 @@
-result	index	org_token	org_suggestion	levenshtein	masked_sentence	certainty
-TP	3929925	Herr	Heer	1.0	Erst als der Monsun wieder begann, erreichte das [MASK] 325 v. Chr. die Indusmündung und den Indischen Ozean.	0.03260553
-TP	21426165	After	Alter	1.0	Im [MASK] von sechs Jahren wurde Turing nach St. Michaels in eine Ganztagsschule geschickt.	0.99185079
-TP	26295245	lies	ließ	1.0	Auch gegenüber den zahlreichen vegetarischen Gemeinschaften in Deutschland zeigte er keinerlei Sympathien Noch 1933 verbot er sämtliche Organisationen und [MASK] ihre Vorstände verhaften.	0.12420484
-TP	47872734	Wegen	Wagen	1.0	Im Römischen Reich wurden um 200 n. Wagen benutzt, die durch die Muskelkraft von Sklaven im Inneren der [MASK] bewegt wurden.	0.84229612
-TP	14229212	erhalten	enthalten	2.0	Ebenso beliebt sind die kartoffeln Sieglinde auch Magarethen genannt, sie wachsen direkt am Strand und [MASK] viele Mineralien vom Meer.	0.44340813
-TP	30929844	erhalten	gehalten	2.0	Sie wurden zunächst für einen Zweig des Kuschitischen [MASK], inzwischen ist die von Harold Fleming begründete Abgliederung weitestgehend anerkannt.	0.03979231
-TP	51767464	westlich	wesentlich	2.0	Viele HFA-Autisten sind deshalb als Erwachsene nicht von Asperger-Autisten zu unterscheiden, meistens bleiben jedoch die autistischen Symptome [MASK] deutlicher ausgeprägt als beim Asperger-Syndrom.	0.02676436
-TP	60483276	wird	wirkt	2.0	Biologische Bedeutung Elementares Chlor [MASK] oxidierend und kann mit pflanzlichem und tierischem Gewebe reagieren.	0.07792240
-TP	46454650	Sommer	Somme	1.0	Frankreich setzte als erste der kriegführenden Nationen an der [MASK] am 22. Februar 1916 Phosgen COCl2 in Reinform ein, nachdem Deutschland es bereits am 31. Mai 1915 als 5%ige Beimengung zum Chlorgas verwendet hatte.	0.01787417
-TP	8306042	Ecke	Erde	2.0	Duergar Die Duergar, auch Dunkelzwerge oder Grauzwerge genannt, sind eine böse Abart der Zwergenrasse, die sich tief unter der [MASK] verstecken und die das Sonnenlicht verabscheuen.	0.52539390
-TP	72767453	Mark	Markt	1.0	Vorrangig in den USA brachten Kamerahersteller wie Canon, Nikon, Konica oder Fuji Weiterentwicklungen dieses Modells auf den [MASK].	0.95566285
-TP	39582158	Hand	Hang	1.0	Am [MASK] des Schlossberges verläuft die Sporgasse, eine vor allen bei Touristen beliebte Einkaufs- und Cafestraße.	0.02553233
-FN	5072189	Stadium	Stadion	2.0	Dieses [MASK] wird auch für kulturelle Veranstaltungen genutzt.	0.00052687
-FN	27502267	Glas	Gas	1.0	In der Schmelze wird Kohlensäure frei und löst sich als [MASK] aus dem Glas.	0.01701210
-FN	6183302	Haus	Herz	3.0	Die eigene zur Faust geschlossene Hand stellt das [MASK] dar.	0.00125701
-TP	5919128	bekommen	gekommen	1.0	1795 begann seine Freundschaft mit Schiller, der erst als Historieprofessor nach Jena [MASK] ist.	0.69755453
-TP	8409294	Homo	Homer	2.0	Schon früh interessierte er sich für die Literatur, wobei er sein Augenmerk zunächst auf Friedrich Gottlieb Klopstock und [MASK] richtete.	0.00030946
-TP	9469387	Mode	Monde	1.0	Der Hauptring Main Ring zum Beispiel besteht aus dem Staub der [MASK] Adrastea und Metis.	0.00015928
-TP	24450019	Jaguar	Januar	1.0	Der [MASK] v. lat. ianua „Tür, Zugang“ ist der erste Monat des Jahres im Gregorianischen Kalender.	0.00005337
-TP	42116395	Model	Modell	1.0	Im [MASK] würde ein Lichtstrahl von der Erde, in ca. 1,2 Sekunden den Mond erreichen.	0.00075578
-TP	35242410	Reine	Reihe	1.0	Landschaftsplanung kann man in Deutschland an einer [MASK] von Universitäten Diplom, Bachelor, Master und Fachhochschulen studieren.	0.13567692
-TP	10942081	Station	Stadion	1.0	Unbreakable Hier spielt er den vermeintlichen Drogendealer der im [MASK] gestellt wird.	0.00013092
-TP	53178085	Regio	Regie	1.0	Von 2007-2008 produzierte er die Zeichentrickserie Spaceballs The Animated Series mit und führte bei einigen Episoden [MASK].	0.49827155
-TP	1709369	Architekten	Architektur	2.0	Das Wort Modell entstand im Italien der Renaissance modello, hervorgegangen aus modulo, dem Maßstab in der [MASK] und gehörte bis ins 18. Jahrhundert der Fachsprache der bildenden Künstler an.	0.00387333
-TP	14206412	weißen	weisen	1.0	Die Einteilung soll daher lediglich die Richtung [MASK], nicht aber exakte Auskünfte über die Therapie geben.	0.00019283
-TP	21391375	Satz	Sitz	1.0	Der provisorische irakische Regierungsrat erhält einen [MASK] in der Arabischen Liga;	0.43077728
-TP	31393039	Still	Stil	1.0	Er entdeckte Hymnen des Mesomedes, die heute verloren sind, und schrieb ein Traktat gegen die niederländische Polyphonie&nbsp;– einer der deutlichsten Beweise für den gewünschten musikalischen [MASK].	0.13762313
-TP	41029296	Opfer	Oper	1.0	Entstehung der [MASK] thumb Claudio Monteverdi	0.00189958
-TP	45707570	Zwei	Zweig	1.0	Popmusik ist der lukrativste [MASK] der Musikindustrie.	0.00027602
-TP	10944509	Rechts	Rechte	1.0	Gleichwohl wurden diese [MASK] vom Zaren nicht respektiert.	0.00082813
+result_fw	result_bw	index	org_token	org_suggestion	levenshtein	masked_sentence
+TP	TN	3929925	Herr	Heer	1.0	Erst als der Monsun wieder begann, erreichte das [MASK] 325 v. Chr. die Indusmündung und den Indischen Ozean.
+TP	TN	21426165	After	Alter	1.0	Im [MASK] von sechs Jahren wurde Turing nach St. Michaels in eine Ganztagsschule geschickt.
+TP	TN	26295245	lies	ließ	1.0	Auch gegenüber den zahlreichen vegetarischen Gemeinschaften in Deutschland zeigte er keinerlei Sympathien Noch 1933 verbot er sämtliche Organisationen und [MASK] ihre Vorstände verhaften.
+TP	TN	47872734	Wegen	Wagen	1.0	Im Römischen Reich wurden um 200 n. Wagen benutzt, die durch die Muskelkraft von Sklaven im Inneren der [MASK] bewegt wurden.
+TP	TN	14229212	erhalten	enthalten	2.0	Ebenso beliebt sind die kartoffeln Sieglinde auch Magarethen genannt, sie wachsen direkt am Strand und [MASK] viele Mineralien vom Meer.
+TP	TN	30929844	erhalten	gehalten	2.0	Sie wurden zunächst für einen Zweig des Kuschitischen [MASK], inzwischen ist die von Harold Fleming begründete Abgliederung weitestgehend anerkannt.
+TP	TN	51767464	westlich	wesentlich	2.0	Viele HFA-Autisten sind deshalb als Erwachsene nicht von Asperger-Autisten zu unterscheiden, meistens bleiben jedoch die autistischen Symptome [MASK] deutlicher ausgeprägt als beim Asperger-Syndrom.
+TP	TN	60483276	wird	wirkt	2.0	Biologische Bedeutung Elementares Chlor [MASK] oxidierend und kann mit pflanzlichem und tierischem Gewebe reagieren.
+TP	TN	46454650	Sommer	Somme	1.0	Frankreich setzte als erste der kriegführenden Nationen an der [MASK] am 22. Februar 1916 Phosgen COCl2 in Reinform ein, nachdem Deutschland es bereits am 31. Mai 1915 als 5%ige Beimengung zum Chlorgas verwendet hatte.
+TP	TN	8306042	Ecke	Erde	2.0	Duergar Die Duergar, auch Dunkelzwerge oder Grauzwerge genannt, sind eine böse Abart der Zwergenrasse, die sich tief unter der [MASK] verstecken und die das Sonnenlicht verabscheuen.
+TP	TN	72767453	Mark	Markt	1.0	Vorrangig in den USA brachten Kamerahersteller wie Canon, Nikon, Konica oder Fuji Weiterentwicklungen dieses Modells auf den [MASK].
+TP	TN	39582158	Hand	Hang	1.0	Am [MASK] des Schlossberges verläuft die Sporgasse, eine vor allen bei Touristen beliebte Einkaufs- und Cafestraße.
+FN	TN	5072189	Stadium	Stadion	2.0	Dieses [MASK] wird auch für kulturelle Veranstaltungen genutzt.
+FN	TN	27502267	Glas	Gas	1.0	In der Schmelze wird Kohlensäure frei und löst sich als [MASK] aus dem Glas.
+FN	TN	6183302	Haus	Herz	3.0	Die eigene zur Faust geschlossene Hand stellt das [MASK] dar.
+TP	TN	5919128	bekommen	gekommen	1.0	1795 begann seine Freundschaft mit Schiller, der erst als Historieprofessor nach Jena [MASK] ist.
+TP	TN	8409294	Homo	Homer	2.0	Schon früh interessierte er sich für die Literatur, wobei er sein Augenmerk zunächst auf Friedrich Gottlieb Klopstock und [MASK] richtete.
+TP	TN	9469387	Mode	Monde	1.0	Der Hauptring Main Ring zum Beispiel besteht aus dem Staub der [MASK] Adrastea und Metis.
+TP	TN	24450019	Jaguar	Januar	1.0	Der [MASK] v. lat. ianua „Tür, Zugang“ ist der erste Monat des Jahres im Gregorianischen Kalender.
+TP	TN	42116395	Model	Modell	1.0	Im [MASK] würde ein Lichtstrahl von der Erde, in ca. 1,2 Sekunden den Mond erreichen.
+TP	TN	35242410	Reine	Reihe	1.0	Landschaftsplanung kann man in Deutschland an einer [MASK] von Universitäten Diplom, Bachelor, Master und Fachhochschulen studieren.
+TP	TN	10942081	Station	Stadion	1.0	Unbreakable Hier spielt er den vermeintlichen Drogendealer der im [MASK] gestellt wird.
+TP	TN	53178085	Regio	Regie	1.0	Von 2007-2008 produzierte er die Zeichentrickserie Spaceballs The Animated Series mit und führte bei einigen Episoden [MASK].
+TP	TN	1709369	Architekten	Architektur	2.0	Das Wort Modell entstand im Italien der Renaissance modello, hervorgegangen aus modulo, dem Maßstab in der [MASK] und gehörte bis ins 18. Jahrhundert der Fachsprache der bildenden Künstler an.
+TP	TN	14206412	weißen	weisen	1.0	Die Einteilung soll daher lediglich die Richtung [MASK], nicht aber exakte Auskünfte über die Therapie geben.
+TP	TN	21391375	Satz	Sitz	1.0	Der provisorische irakische Regierungsrat erhält einen [MASK] in der Arabischen Liga;
+TP	TN	31393039	Still	Stil	1.0	Er entdeckte Hymnen des Mesomedes, die heute verloren sind, und schrieb ein Traktat gegen die niederländische Polyphonie&nbsp;– einer der deutlichsten Beweise für den gewünschten musikalischen [MASK].
+TP	TN	41029296	Opfer	Oper	1.0	Entstehung der [MASK] thumb Claudio Monteverdi
+TP	TN	45707570	Zwei	Zweig	1.0	Popmusik ist der lukrativste [MASK] der Musikindustrie.
+TP	TN	10944509	Rechts	Rechte	1.0	Gleichwohl wurden diese [MASK] vom Zaren nicht respektiert.
