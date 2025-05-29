@@ -3,7 +3,7 @@ import spacy
 import unicodedata
 
 from cassis import Cas, load_typesystem
-from rwse import RWSE_Checker, T_RWSE, T_SENTENCE, T_TOKEN
+from rwse_checker.rwse import RWSE_Checker, T_RWSE, T_SENTENCE, T_TOKEN
 from transformers.utils import logging
 
 logging.set_verbosity_error()
