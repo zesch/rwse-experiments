@@ -8,6 +8,11 @@ from transformers.utils import logging
 
 logging.set_verbosity_error()
 
+STATE_CHECKBOX_ = 'STATE_CHECKBOX_'
+STATE_CONFUSION_SETS_MODIFIED = 'STATE_CONFUSION_SETS_MODIFIED'
+STATE_CONFUSION_SETS_ORIGINAL = 'STATE_CONFUSION_SETS_ORIGINAL'
+STATE_INFINITE_SEQUENCE = 'STATE_INFINITE_SEQUENCE'
+STATE_RWSE_CHECKER = 'STATE_RWSE_CHECKER'
 STATE_TEXT_AREA = 'STATE_TEXT_AREA'
 
 nlp = spacy.load("en_core_web_sm")
@@ -16,8 +21,37 @@ ts_file = 'experiments/input/TypeSystem.xml'
 with open(ts_file, 'rb') as f:
     ts = load_typesystem(f)
 
-rwse_checker = RWSE_Checker()
-rwse_checker.set_confusion_sets('experiments/input/confusion_sets_modified.csv')
+if st.session_state.get(STATE_INFINITE_SEQUENCE) is None:
+    def infinite_sequence():
+        num = 0
+        while True:
+            yield num
+            num += 1
+
+    st.session_state[STATE_INFINITE_SEQUENCE] = infinite_sequence()
+
+if st.session_state.get(STATE_CONFUSION_SETS_ORIGINAL) is None:
+    st.session_state[STATE_CONFUSION_SETS_ORIGINAL] = []
+    with open('experiments/input/confusion_sets_modified.csv', 'r') as file:
+        for line in file.readlines():
+            st.session_state[STATE_CONFUSION_SETS_ORIGINAL].append({item.strip() for item in line.split(',')})
+
+if st.session_state.get(STATE_CONFUSION_SETS_MODIFIED) is None:
+    st.session_state[STATE_CONFUSION_SETS_MODIFIED] = []
+    for item in st.session_state[STATE_CONFUSION_SETS_ORIGINAL]:
+        cs_id = next(st.session_state[STATE_INFINITE_SEQUENCE])
+        st.session_state[STATE_CONFUSION_SETS_MODIFIED].append((item, cs_id))
+        st.session_state[STATE_CHECKBOX_ + str(cs_id)] = True
+
+if st.session_state.get(STATE_RWSE_CHECKER) is None:
+    st.session_state[STATE_RWSE_CHECKER] = RWSE_Checker()
+    st.session_state[STATE_RWSE_CHECKER].set_confusion_sets(st.session_state[STATE_CONFUSION_SETS_ORIGINAL])
+
+def reset_confusion_sets():
+    st.session_state[STATE_RWSE_CHECKER].set_confusion_sets([
+        item[0] for item in st.session_state[STATE_CONFUSION_SETS_MODIFIED] if
+        st.session_state[STATE_CHECKBOX_ + str(item[1])]
+    ])
 
 default_text = "My advise for you is: Do not put to much subjects, just put a few subject and make them look interesting."
 
@@ -48,7 +82,7 @@ def create_cas(input_text):
         cas.add(cas_token)
 
     # run RWSE checker
-    rwse_checker.check_cas(cas, ts)
+    st.session_state[STATE_RWSE_CHECKER].check_cas(cas, ts)
     return cas
 
 def parse_ents(cas: Cas):
@@ -98,5 +132,25 @@ st.text_area(r"$\textsf{\large Enter a text here:}$",
 st.write(r"$\textsf{\normalsize View annotation results:}$")
 with st.container(border=True):
     create_html()
+
+with st.sidebar:
+    st.write(r"$\textsf{\normalsize Add new confunsion sets:}$")
+    prompt = st.chat_input("separate words with a ;")
+    if prompt:
+        text_input = prompt
+        new_confusion_set = [item.strip() for item in text_input.split(";")]
+        if len(new_confusion_set) > 1:
+            cs_id = next(st.session_state[STATE_INFINITE_SEQUENCE])
+            st.session_state[STATE_CONFUSION_SETS_MODIFIED].append((new_confusion_set, cs_id))
+            st.session_state[STATE_CHECKBOX_ + str(cs_id)] = True
+            reset_confusion_sets()
+        else:
+            st.write(f"Input is not valid.")
+    st.divider()
+    for confusion_set, cs_id in st.session_state[STATE_CONFUSION_SETS_MODIFIED]:
+        st.checkbox('{' +', '.join(confusion_set) +'}', key=STATE_CHECKBOX_ + str(cs_id),
+                    on_change=reset_confusion_sets)
+
+
 
 
