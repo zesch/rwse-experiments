@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 import spacy
 import unicodedata
@@ -8,6 +9,7 @@ from transformers.utils import logging
 
 logging.set_verbosity_error()
 
+STATE_CAS = 'STATE_CAS'
 STATE_CHECKBOX_ = 'STATE_CHECKBOX_'
 STATE_CONFUSION_SETS_MODIFIED = 'STATE_CONFUSION_SETS_MODIFIED'
 STATE_CONFUSION_SETS_ORIGINAL = 'STATE_CONFUSION_SETS_ORIGINAL'
@@ -54,6 +56,8 @@ def reset_confusion_sets():
     ])
 
 default_text = "My advise for you is: Do not put to much subjects, just put a few subject and make them look interesting."
+# I sailed over the pony.
+# It's ease too dessert the county.
 
 labels_to_colors = {
     'RWSE': 'palegreen',
@@ -119,9 +123,17 @@ def parse_ents(cas: Cas):
 
 
 def create_html():
-    cas = create_cas(st.session_state[STATE_TEXT_AREA])
-    html = parse_ents(cas)
+    st.session_state[STATE_CAS] = create_cas(st.session_state[STATE_TEXT_AREA])
+    html = parse_ents(st.session_state[STATE_CAS])
     st.write(html + '<br>', unsafe_allow_html=True)
+
+def show_data_frame():
+    data = []
+    for annotation in st.session_state[STATE_CAS].select(T_RWSE):
+        data.append((annotation.get_covered_text(), annotation.suggestion, annotation.certainty))
+    if len(data) > 0:
+        st.dataframe(pd.DataFrame.from_records(data, columns=['original', 'suggestion', 'certainty']),
+                     hide_index=True)
 
 
 st.title("RWSE Demo")
@@ -132,6 +144,8 @@ st.text_area(r"$\textsf{\large Enter a text here:}$",
 st.write(r"$\textsf{\normalsize View annotation results:}$")
 with st.container(border=True):
     create_html()
+st.write(r"$\textsf{\normalsize RWSE overview:}$")
+show_data_frame()
 
 with st.sidebar:
     st.write(r"$\textsf{\normalsize Add new confunsion sets:}$")
@@ -150,7 +164,3 @@ with st.sidebar:
     for confusion_set, cs_id in st.session_state[STATE_CONFUSION_SETS_MODIFIED]:
         st.checkbox('{' +', '.join(confusion_set) +'}', key=STATE_CHECKBOX_ + str(cs_id),
                     on_change=reset_confusion_sets)
-
-
-
-
